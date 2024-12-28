@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "50_hit_combo": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "icon": {
+            "item": "netherite_sword",
+            "nbt": "{CustomModelData:100}"
+        },
+        "description": {
+            "text": "Successfully land a 50 hit combo with the Withering Blade"
+        },
+        "title": {
+            "text": "Thirst for Decay"
+        },
+        "announce_to_chat": true,
+        "frame": "challenge",
+        "hidden": true,
+        "show_toast": true
+    },
+    "parent": "nether/summon_wither"
+}

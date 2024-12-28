@@ -1,0 +1,43 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "music_disc_11",
+          "functions": [
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Daisuke Ishiwatari - The Town Inside Me (Bridget Theme)",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "text": "Added by gay_people_inc",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Goofy SMP",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{CustomModelData:5, HideFlags:32,GoofySMP:{disc:'the_town_inside_me',item:'record'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

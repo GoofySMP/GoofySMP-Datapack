@@ -1,0 +1,1 @@
+loot give @s loot goofy_discs:discs/the_slaughter_continues

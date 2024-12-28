@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "take_damage_from_mob": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_magic": false
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:combat/tag"
+  }
+}

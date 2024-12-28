@@ -1,0 +1,29 @@
+omg this has a checkbox icon in vscode oO
+
+[] = not done
+[?] = decide
+[D] = done
+
+[] Make combat tag translation from seconds to ticks math-based and NOT hard-coded
+[] Buff Withering Blade
+    - Frenzy stage 1 gives strength II, speed III and haste II
+    - Frenzy stage 2 gives strength III, speed IV and haste III
+    - Frenzy stage 3 gives strength IV, speed V and haste IV
+    ? Additional frenzy stages by linear progression when macros
+[?] Let members have custom Armour Textures
+[?] More music discs when update
+[] Make EVERYTHING configureable
+    [] Withering Blade
+        [] Seconds until Withering combo expires (DEFAULT: 2, setting to 0 disables comboing)
+        [] How many hits it takes until each frenzy stage activates (DEFAULT: see below)
+            [] 1 (DEFAULT: 5)
+            [] 2 (DEFAULT: 15)
+            [] 3 (DEFAULT: 25)
+        [] Getting hit by something breaks the combo? (DEFAULT: YES)
+        [] Combo cooldown after frenzy? (DEFAULT: NO)
+    [] Dragonsbane
+        [] Transmission distance (DEFAULT: 20 blocks)
+        [] Cooldown on transmission? (DEFAULT: NO)
+        [] Cooldown on transmission in combat (DEFAULT: 8 seconds, setting to 0 disables)
+    [] Combat Tag duration (DEFAULT: 10 seconds)
+    [] "Thick of it" easter egg (DEFAULT: YES)

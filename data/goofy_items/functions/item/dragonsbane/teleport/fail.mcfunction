@@ -1,0 +1,1 @@
+title @s actionbar {"text": "You do not have enough levels!","color": "light_purple"}

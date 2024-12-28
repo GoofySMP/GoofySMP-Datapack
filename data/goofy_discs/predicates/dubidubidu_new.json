@@ -1,0 +1,17 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "mainhand":{
+            "item": "music_disc_11",
+            "nbt": "{GoofySMP:{disc:'dubidubidu'}}"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+loot give @s loot goofy_discs:discs/not_a_slacker_anymore

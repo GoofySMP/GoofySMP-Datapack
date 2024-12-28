@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "hit_entity": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_projectile": false,
+            "is_explosion": false,
+            "is_lightning": false,
+            "is_fire": false,
+            "is_magic": false
+          },
+          "dealt": {
+            "min": 8
+          }
+        },
+        "player": {
+          "type": "player",
+          "equipment": {
+            "mainhand": {
+              "item": "netherite_sword",
+              "nbt": "{GoofySMP:{item:'withering_blade'}}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:item/wither_blade/hit"
+  }
+}

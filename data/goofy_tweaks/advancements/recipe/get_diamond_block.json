@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "enter_monument": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "diamond_block"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "goofy_tweaks:diamond_axe_smithing",
+      "goofy_tweaks:diamond_boots_smithing",
+      "goofy_tweaks:diamond_chestplate_smithing",
+      "goofy_tweaks:diamond_helmet_smithing",
+      "goofy_tweaks:diamond_hoe_smithing",
+      "goofy_tweaks:diamond_leggings_smithing",
+      "goofy_tweaks:diamond_pickaxe_smithing",
+      "goofy_tweaks:diamond_shovel_smithing",
+      "goofy_tweaks:diamond_sword_smithing"
+    ]
+  }
+}

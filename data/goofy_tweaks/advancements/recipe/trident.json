@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "enter_monument": {
+      "trigger": "location",
+      "conditions": {
+        "location": {
+          "feature": "monument"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["goofy_tweaks:trident"]
+  }
+}

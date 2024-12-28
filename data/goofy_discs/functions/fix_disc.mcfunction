@@ -1,0 +1,11 @@
+execute if predicate goofy_discs:aee_old unless predicate goofy_discs:aee_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/aee
+execute if predicate goofy_discs:battle_against_a_true_hero_old unless predicate goofy_discs:battle_against_a_true_hero_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/battle_against_a_true_hero
+execute if predicate goofy_discs:bite_me_old unless predicate goofy_discs:bite_me_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/bite_me
+execute if predicate goofy_discs:butcher_vanity_old unless predicate goofy_discs:butcher_vanity_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/butcher_vanity
+execute if predicate goofy_discs:dubidubidu_old unless predicate goofy_discs:dubidubidu_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/dubidubidu
+execute if predicate goofy_discs:feels_right_old unless predicate goofy_discs:feels_right_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/feels_right
+execute if predicate goofy_discs:funeral_boss_old unless predicate goofy_discs:funeral_boss_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/funeral_boss
+execute if predicate goofy_discs:notion_old unless predicate goofy_discs:notion_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/notion
+execute if predicate goofy_discs:one_seven_eight_old unless predicate goofy_discs:one_seven_eight_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/one_seven_eight
+execute if predicate goofy_discs:sepia_old unless predicate goofy_discs:sepia_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/sepia
+execute if predicate goofy_discs:the_town_inside_me_old unless predicate goofy_discs:the_town_inside_me_new run loot replace entity @s weapon.mainhand loot goofy_discs:discs/the_town_inside_me

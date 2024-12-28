@@ -1,0 +1,1 @@
+loot give @s loot goofy_discs:discs/a_cup_of_libertea

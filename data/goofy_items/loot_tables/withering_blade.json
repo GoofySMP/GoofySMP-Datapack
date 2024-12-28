@@ -1,0 +1,57 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "When powered by a nether star,",
+                                    "color": "#6c7477",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "it activates a frenzy upon",
+                                    "color": "#6c7477",
+                                    "italic": true
+                                },
+                                
+                                {
+                                    "text": "enough consecutive strikes",
+                                    "color": "#6c7477",
+                                    "italic": true
+                                },
+                                "",
+                                {
+                                    "text": "Goofy SMP",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text":"Withering Blade",
+                                "color": "#4f6b79",
+                                "italic": false  
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{GoofySMP:{item:'withering_blade'},CustomModelData:100}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

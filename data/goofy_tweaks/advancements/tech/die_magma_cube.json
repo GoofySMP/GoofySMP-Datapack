@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "the_thick_of_it": {
+            "trigger": "entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "magma_cube"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "goofy_tweaks:magma_cube"
+    }
+}

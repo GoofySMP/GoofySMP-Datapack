@@ -1,0 +1,56 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "netherite_sword",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "lore": [
+                                {
+                                    "text": "Reaps life from it's enemies",
+                                    "color": "#8c25d1",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "When in offhand, sneak to",
+                                    "color": "#8c25d1",
+                                    "italic": true
+                                },
+                                {
+                                    "text": "preform a transmission",
+                                    "color": "#8c25d1",
+                                    "italic": true
+                                },
+                                "",
+                                {
+                                    "text": "Goofy SMP",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_name",
+                            "name": {
+                                "text":"Dragonsbane",
+                                "color": "#d206ec",
+                                "italic": false  
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlags:32,GoofySMP:{item:'dragonsbane'},CustomModelData:101}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

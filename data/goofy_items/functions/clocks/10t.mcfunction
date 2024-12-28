@@ -1,0 +1,2 @@
+execute as @e[type=item] at @s if block ~ ~-1 ~ smithing_table if block ~ ~-2 ~1 #beacon_base_blocks if block ~ ~-2 ~-1 #beacon_base_blocks if block ~1 ~-2 ~ #beacon_base_blocks if block ~-1 ~-2 ~ #beacon_base_blocks run function goofy_items:craft
+schedule function goofy_items:clocks/10t 10t
