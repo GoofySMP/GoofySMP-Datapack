@@ -17,4 +17,6 @@ execute if entity @s[nbt={Item:{tag:{GoofySMP:{disc:'miku'}}}}] run stopsound @a
 execute if entity @s[nbt={Item:{tag:{GoofySMP:{disc:'meatball_parade'}}}}] run stopsound @a[distance=..64] record goofy_smp:music_disc.meatball_parade
 execute if entity @s[nbt={Item:{tag:{GoofySMP:{disc:'i_am_all_of_me'}}}}] run stopsound @a[distance=..64] record goofy_smp:music_disc.i_am_all_of_me
 execute if entity @s[nbt={Item:{tag:{GoofySMP:{disc:'repairing_good'}}}}] run stopsound @a[distance=..64] record goofy_smp:music_disc.repairing_good
+execute if entity @s[nbt={Item:{tag:{GoofySMP:{disc:'concerning_hobbits'}}}}] run stopsound @a[distance=..64] record goofy_smp:music_disc.concerning_hobbits
+execute if entity @s[nbt={Item:{tag:{GoofySMP:{disc:'papers_please_theme'}}}}] run stopsound @a[distance=..64] record goofy_smp:music_disc.papers_please_theme
 execute if entity @s[nbt={Item:{tag:{GoofySMP:{disc:'template'}}}}] run stopsound @a[distance=..64] record goofy_smp:music_disc.template

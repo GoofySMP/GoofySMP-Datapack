@@ -113,6 +113,18 @@ repairing_good
     Added By: TurtleDude826
     CustomModelData: 19
 
+concerning_hobbits
+    Sound Name: Concerning Hobbits
+    Author: Howard Shore
+    Added By: EmpyrianElite
+    CustomModelData: 20
+
+papers_please_theme
+    Sound Name: Glory to Arstotzka (Papers, Please theme)
+    Author: Lucas Pope
+    Added By: Ossmodius
+    CustomModelData: 21
+
 template
     Sound Name: 
     Author: 

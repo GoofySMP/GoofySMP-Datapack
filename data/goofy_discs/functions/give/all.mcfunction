@@ -17,4 +17,6 @@ function goofy_discs:give/miku
 function goofy_discs:give/meatball_parade
 function goofy_discs:give/i_am_all_of_me
 function goofy_discs:give/repairing_good
+function goofy_discs:give/concerning_hobbits
+function goofy_discs:give/papers_please_theme
 function goofy_discs:give/template

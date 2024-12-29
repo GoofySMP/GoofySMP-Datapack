@@ -9,3 +9,4 @@ execute as @s[predicate=goofy_items:player/sneaking,predicate=goofy_items:item/d
 
 #Combat Tag
 execute as @s[scores={gf.ct=1..}] run function goofy_items:combat/refresh_display
+execute as @s[scores={gf.ct=1..}] run scoreboard players remove @s gf.ct 1
