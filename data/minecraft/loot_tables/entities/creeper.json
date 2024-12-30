@@ -130,6 +130,16 @@
           "type": "loot_table",
           "weight": 1,
           "name": "goofy_discs:discs/repairing_good"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "goofy_discs:discs/concerning_hobbits"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "name": "goofy_discs:discs/papers_please_theme"
         }
       ],
       "conditions": [

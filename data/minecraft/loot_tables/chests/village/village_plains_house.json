@@ -85,6 +85,10 @@
           "name": "goofy_discs:discs/sepia"
         },
         {
+          "type": "minecraft:loot_table",
+          "name": "goofy_discs:discs/concerning_hobbits"
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:feather"
         },
