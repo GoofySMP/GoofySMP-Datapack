@@ -1,0 +1,11 @@
+{
+  "description": {
+    "translate": "instrument.goofy_smp.silly_billy_goat_horn",
+    "fallback": "Churgney Gurgney - Silly Billy"
+  },
+  "range": 32,
+  "sound_event": {
+    "sound_id": "goofy_smp:boss.silly_billy"
+  },
+  "use_duration": 378
+}

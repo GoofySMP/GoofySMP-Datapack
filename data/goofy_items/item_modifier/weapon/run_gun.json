@@ -1,0 +1,16 @@
+[
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "goofy_smp": {
+        "texture": true
+      }
+    }
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "item_model": "goofy_smp:run_gun"
+    }
+  }
+]

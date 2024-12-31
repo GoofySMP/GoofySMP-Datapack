@@ -1,0 +1,52 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "goat_horn",
+          "functions": [
+            {
+              "function": "set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Added by Uthimentius",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Goofy SMP",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "instrument": "goofy_discs:silly_billy",
+                "item_model": "goofy_smp:goat_horn/silly_billy",
+                "rarity": "rare"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "goofy_smp": {
+                  "disc": "silly_billy",
+                  "item": "record"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+$execute unless data entity @s data{success:1b} positioned ^ ^ ^$(distance) store success entity @s data.success byte 1 if block ~ ~ ~ jukebox
+$execute if data entity @s data{success:1b} positioned ^ ^ ^$(distance) run fill ~ ~ ~ ~ ~ ~ air destroy

@@ -1,0 +1,46 @@
+[
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "Added by EmpyrianElite",
+        "color": "gray",
+        "italic": false
+      },
+      "",
+      {
+        "text": "Goofy SMP",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "jukebox_playable": {
+        "song": "goofy_discs:concerning_hobbits",
+        "show_in_tooltip": true
+      },
+      "item_model": "goofy_smp:music_disc/concerning_hobbits"
+    }
+  },
+  {
+    "function": "set_custom_model_data",
+    "floats": {
+      "mode": "replace_all",
+      "values": [0.0]
+    }
+  },
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "goofy_smp": {
+        "disc": "concerning_hobbits",
+        "item": "record"
+    }
+  }
+ }
+]

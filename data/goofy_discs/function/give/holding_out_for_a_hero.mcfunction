@@ -1,0 +1,1 @@
+loot give @s loot goofy_discs:discs/holding_out_for_a_hero

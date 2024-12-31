@@ -1,0 +1,17 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "predicates": {
+          "custom_data": {
+            "goofy_smp": {
+              "item": "dragonsbane"
+            }
+          }
+        }
+      }
+    }
+  }
+}

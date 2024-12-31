@@ -1,0 +1,17 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.0": {
+        "predicates": {
+          "stored_enchantments": [
+            {
+              "enchantments": ["mending"]
+            }
+          ]
+        }
+      }
+    }
+  }
+}

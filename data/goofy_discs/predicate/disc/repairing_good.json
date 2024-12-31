@@ -1,0 +1,19 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": ["music_disc_11"],
+        "predicates": {
+          "custom_data": {
+            "goofy_smp": {
+              "disc": "repairing_good"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

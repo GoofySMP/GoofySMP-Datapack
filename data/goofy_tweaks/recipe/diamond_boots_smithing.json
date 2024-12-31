@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "#goofy_tweaks:diamond_tool_materials",
+  "base": "minecraft:iron_boots",
+  "result": {
+    "count": 1,
+    "id": "minecraft:diamond_boots"
+  }
+}

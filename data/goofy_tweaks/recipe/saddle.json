@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "Dll",
+    " I ",
+    "   "
+    ],
+  "key": {
+    "l": ["minecraft:leather"],
+    "D": ["minecraft:diamond"],
+    "I": ["minecraft:iron_ingot"]
+  },
+  "result": {
+    "id": "minecraft:saddle",
+    "count": 1
+  }
+}
+  

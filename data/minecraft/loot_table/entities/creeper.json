@@ -1,0 +1,197 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2,
+                "min": 0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1,
+                "min": 0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "minecraft:creeper_drop_music_discs"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/dubidubidu"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/sepia"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/funeral_boss"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/notion"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/the_town_inside_me"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/battle_against_a_true_hero"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/feels_right"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/aee"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/bite_me"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/one_seven_eight"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/butcher_vanity"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/the_slaughter_continues"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/not_a_slacker_anymore"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/choice"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/miku"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/a_cup_of_libertea"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/meatball_parade"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/i_am_all_of_me"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/repairing_good"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/concerning_hobbits"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/papers_please_theme"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/holding_out_for_a_hero"
+        }
+      ],
+      "rolls": 1
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "all_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "type": "minecraft:wither"
+              }
+            },
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/silly_billy"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/creeper"
+}

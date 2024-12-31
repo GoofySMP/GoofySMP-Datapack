@@ -1,0 +1,20 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "nDn",
+    "GAG",
+    "nNn"
+    ],
+  "key": {
+    "G": ["minecraft:gold_block"],
+    "D": ["minecraft:diamond"],
+    "n": ["minecraft:netherite_scrap"],
+    "N": ["minecraft:netherite_ingot"],
+
+    "A": ["minecraft:golden_apple"]
+  },
+  "result": {
+    "id": "minecraft:enchanted_golden_apple",
+    "count": 1
+  }
+}

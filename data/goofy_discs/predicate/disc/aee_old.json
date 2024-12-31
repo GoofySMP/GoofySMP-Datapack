@@ -1,0 +1,18 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": [
+          "music_disc_11"
+        ],
+        "components": {
+          "custom_model_data": {
+            "floats": [8.0]
+          }
+        }
+      }
+    }
+  }
+}

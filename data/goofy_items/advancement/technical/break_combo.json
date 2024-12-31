@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "take_damage_from_mob": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:item/wither_blade/combo/reset"
+  }
+}

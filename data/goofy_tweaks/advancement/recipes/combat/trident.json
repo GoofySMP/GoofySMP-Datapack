@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "enter_monument": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": ["minecraft:monument"]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": ["goofy_tweaks:trident"]
+  }
+}

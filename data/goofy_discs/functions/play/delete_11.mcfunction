@@ -1,2 +1,0 @@
-execute at @e[tag=gf.delete_11,type=area_effect_cloud,scores={gf.disc.expire=1..}] run stopsound @a[distance=..64] * minecraft:music_disc.11
-tellraw @a[tag=gf.dev] [{"text": "Delete 11: "},{"selector": "@e[tag=gf.delete_11,type=area_effect_cloud,scores={gf.disc.expire=1..}]"}]

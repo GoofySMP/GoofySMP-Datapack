@@ -1,0 +1,55 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "music_disc_11",
+          "functions": [
+            {
+              "function": "set_lore",
+              "mode": "append",
+              "lore": [
+                {
+                  "text": "Added by Falsonix",
+                  "color": "gray",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Goofy SMP",
+                  "color": "gold",
+                  "bold": true,
+                  "italic": false
+                }
+              ]
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "jukebox_playable": {
+                  "song": "goofy_discs:notion",
+                  "show_in_tooltip": true
+                },
+                "item_model": "goofy_smp:music_disc/notion"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "goofy_smp": {
+                  "disc": "notion",
+                  "item": "record"
+                
+              }
+            }
+           }
+          ]
+        }
+      ]
+    }
+  ]
+}

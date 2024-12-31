@@ -1,0 +1,50 @@
+[
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "When powered by a nether star,",
+        "color": "#6c7477",
+        "italic": true
+      },
+      {
+        "text": "it activates a frenzy upon",
+        "color": "#6c7477",
+        "italic": true
+      },
+
+      {
+        "text": "enough consecutive strikes",
+        "color": "#6c7477",
+        "italic": true
+      },
+      "",
+      {
+        "text": "Goofy SMP",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_name",
+    "name": {
+      "text": "Withering Blade",
+      "color": "#4f6b79",
+      "italic": false
+    }
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "item_model": "goofy_smp:withering_blade",
+      "custom_data": {
+        "goofy_smp": {
+          "item": "withering_blade"
+        }
+      }
+    }
+  }
+]

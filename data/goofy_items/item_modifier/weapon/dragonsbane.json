@@ -1,0 +1,49 @@
+[
+  {
+    "function": "set_lore",
+    "mode": "replace_all",
+    "lore": [
+      {
+        "text": "Reaps life from it's enemies",
+        "color": "#8c25d1",
+        "italic": true
+      },
+      {
+        "text": "When in offhand, sneak to",
+        "color": "#8c25d1",
+        "italic": true
+      },
+      {
+        "text": "preform a transmission",
+        "color": "#8c25d1",
+        "italic": true
+      },
+      "",
+      {
+        "text": "Goofy SMP",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      }
+    ]
+  },
+  {
+    "function": "set_name",
+    "name": {
+      "text": "Dragonsbane",
+      "color": "#d206ec",
+      "italic": false
+    }
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "item_model": "goofy_smp:dragonsbane",
+      "custom_data": {
+        "goofy_smp": {
+          "item": "dragonsbane"
+        }
+      }
+    }
+  }
+]

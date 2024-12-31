@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "DDD",
+    "pHp",
+    " p "
+    ],
+  "key": {
+    "H": ["minecraft:heart_of_the_sea"],
+    "D": ["minecraft:diamond"],
+    "p": ["minecraft:prismarine_shard"]
+  },
+  "result": {
+    "id": "minecraft:trident",
+    "count": 1
+  }
+}
+  

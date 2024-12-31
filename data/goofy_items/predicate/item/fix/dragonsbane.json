@@ -1,0 +1,23 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_model_data": {
+            "floats": [101.0]
+          }
+        },
+        "predicates": {
+          "minecraft:custom_data": {
+            "GoofySMP": {
+              "item": "dragonsbane"
+            }
+          }
+        },
+        "items": "netherite_sword"
+      }
+    }
+  }
+}
