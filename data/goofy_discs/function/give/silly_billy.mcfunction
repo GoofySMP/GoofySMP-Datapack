@@ -1,1 +1,0 @@
-loot give @s loot goofy_discs:discs/silly_billy
