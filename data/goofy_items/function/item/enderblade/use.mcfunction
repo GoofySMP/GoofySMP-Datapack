@@ -21,5 +21,5 @@ kill @n[tag=gf.spare_slot,distance=...01]
 
 #warp
 particle reverse_portal ~ ~1 ~ .1 .2 .1 .1 50 normal
-experience add @s -2 levels
+execute unless data entity @s {Dimension:"minecraft:the_end"} run experience add @s -2 levels
 function goofy_items:item/enderblade/ray/cast
