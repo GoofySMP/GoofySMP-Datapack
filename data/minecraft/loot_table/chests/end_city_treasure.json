@@ -104,7 +104,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "value": "goofy_discs:discs/one_seven_eight"
+          "value": "goofy_discs:discs/my_time"
         },
         {
           "type": "minecraft:loot_table",

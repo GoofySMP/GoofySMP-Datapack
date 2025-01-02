@@ -6,7 +6,7 @@ loot give @s loot goofy_discs:discs/dubidubidu
 loot give @s loot goofy_discs:discs/feels_right
 loot give @s loot goofy_discs:discs/funeral_boss
 loot give @s loot goofy_discs:discs/notion
-loot give @s loot goofy_discs:discs/one_seven_eight
+loot give @s loot goofy_discs:discs/my_time
 loot give @s loot goofy_discs:discs/sepia
 loot give @s loot goofy_discs:discs/the_town_inside_me
 loot give @s loot goofy_discs:discs/not_a_slacker_anymore

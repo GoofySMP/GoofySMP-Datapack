@@ -31,17 +31,17 @@
               "function": "set_components",
               "components": {
                 "jukebox_playable": {
-                  "song": "goofy_discs:one_seven_eight",
+                  "song": "goofy_discs:my_time",
                   "show_in_tooltip": true
                 },
-                "item_model": "goofy_smp:music_disc/one_seven_eight"
+                "item_model": "goofy_smp:music_disc/my_time"
               }
             },
             {
               "function": "set_custom_data",
               "tag": {
                 "goofy_smp": {
-                  "disc": "one_seven_eight",
+                  "disc": "my_time",
                   "item": "record"
                 
               }

@@ -65,7 +65,7 @@ bite_me
     CustomModelData (Legacy): 9
     Stereo Available
  
-one_seven_eight
+my_time
     Sound Name: 178 My Time
     Author: OMOCAT
     Added By: TacticalSoupCan
