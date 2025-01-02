@@ -1,7 +1,4 @@
 #> SCOREBOARDS
-#combat tag
-scoreboard objectives add gf.ct dummy
-scoreboard objectives add gf.ct_display dummy
 
 #withering blade
 scoreboard objectives add gf.combo dummy
