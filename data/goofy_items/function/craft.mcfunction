@@ -5,11 +5,12 @@
 # Dragonsbane
 execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
 if entity @n[type=item,nbt={Item:{id:"minecraft:netherite_ingot",count:1}},distance=0...5] \
-if entity @n[type=item,nbt={Item:{id:"minecraft:end_crystal",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:end_crystal",count:2}},distance=0...5] \
 if entity @n[type=item,predicate=goofy_items:misc/mending_book,nbt={Item:{id:"minecraft:enchanted_book",count:1}},distance=0...5] \
 if entity @n[type=item,nbt={Item:{id:"minecraft:ender_pearl",count:1}},distance=0...5] \
-if entity @n[type=item,nbt={Item:{id:"minecraft:experience_bottle",count:2}},distance=0...5] \
-if entity @n[type=item,nbt={Item:{id:"minecraft:chorus_fruit",count:2}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:experience_bottle",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:turtle_scute",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:dragon_head",count:1}},distance=0...5] \
 run function goofy_items:item/dragonsbane/craft
 
 # Withering Blade

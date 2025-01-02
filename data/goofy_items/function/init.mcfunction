@@ -9,12 +9,11 @@ scoreboard objectives add gf.combo dummy
 scoreboard objectives add gf.combo_ref dummy
 
 #dragonsbane
-scoreboard objectives add gf.teleport_cool dummy
 scoreboard objectives add gf.ray_steps dummy
 
 #> default configs
 scoreboard objectives add gf.config dummy
-execute unless score #loaded gf.config matches 1 run scoreboard players set #ray_steps gf.config 80
+execute unless score #loaded gf.config matches 1 run function .cmd:z_change_value/defaults
 scoreboard players set #loaded gf.config 1
 
 #> timers

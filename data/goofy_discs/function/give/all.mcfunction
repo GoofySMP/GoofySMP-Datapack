@@ -1,26 +1,23 @@
-function goofy_discs:give/aee
-function goofy_discs:give/battle_against_a_true_hero
-function goofy_discs:give/bite_me
-function goofy_discs:give/butcher_vanity
-function goofy_discs:give/dubidubidu
-function goofy_discs:give/feels_right
-function goofy_discs:give/funeral_boss
-function goofy_discs:give/notion
-function goofy_discs:give/one_seven_eight_my_time
-function goofy_discs:give/sepia
-function goofy_discs:give/the_town_inside_me
-function goofy_discs:give/not_a_slacker_anymore
-function goofy_discs:give/the_slaughter_continues
-function goofy_discs:give/a_cup_of_libertea
-function goofy_discs:give/choice
-function goofy_discs:give/miku
-function goofy_discs:give/meatball_parade
-function goofy_discs:give/i_am_all_of_me
-function goofy_discs:give/repairing_good
-function goofy_discs:give/concerning_hobbits
-function goofy_discs:give/papers_please_theme
-function goofy_discs:give/hit_single_real_silly_billy__ft_ironik0422__duccly__spacenautics__honkish__hassenxmp4__-_churgney_gurgney
-function goofy_discs:give/test
-function goofy_discs:give/eouifeefhjifgurehgkfgbhkfuhrij_ihoier
-function goofy_discs:give/silly_billy
-function goofy_discs:give/holding_out_for_a_hero
+loot give @s loot goofy_discs:discs/aee
+loot give @s loot goofy_discs:discs/battle_against_a_true_hero
+loot give @s loot goofy_discs:discs/bite_me
+loot give @s loot goofy_discs:discs/butcher_vanity
+loot give @s loot goofy_discs:discs/dubidubidu
+loot give @s loot goofy_discs:discs/feels_right
+loot give @s loot goofy_discs:discs/funeral_boss
+loot give @s loot goofy_discs:discs/notion
+loot give @s loot goofy_discs:discs/one_seven_eight
+loot give @s loot goofy_discs:discs/sepia
+loot give @s loot goofy_discs:discs/the_town_inside_me
+loot give @s loot goofy_discs:discs/not_a_slacker_anymore
+loot give @s loot goofy_discs:discs/the_slaughter_continues
+loot give @s loot goofy_discs:discs/a_cup_of_libertea
+loot give @s loot goofy_discs:discs/choice
+loot give @s loot goofy_discs:discs/miku
+loot give @s loot goofy_discs:discs/meatball_parade
+loot give @s loot goofy_discs:discs/i_am_all_of_me
+loot give @s loot goofy_discs:discs/repairing_good
+loot give @s loot goofy_discs:discs/concerning_hobbits
+loot give @s loot goofy_discs:discs/papers_please_theme
+loot give @s loot goofy_discs:discs/silly_billy
+loot give @s loot goofy_discs:discs/holding_out_for_a_hero

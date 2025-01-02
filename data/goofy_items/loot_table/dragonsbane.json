@@ -14,36 +14,81 @@
               "mode": "replace_all",
               "lore": [
                 {
-                  "text": "Reaps life from it's enemies",
-                  "color": "#8c25d1",
-                  "italic": true
+                  "text": ""
+                },
+                "",
+                [
+                  {
+                    "text": "Ability: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "Crystal Guard",
+                    "italic": false,
+                    "color": "white"
+                  }
+                ],
+                {
+                  "text": "  Chance to grant brief regeneration and ",
+                  "italic": false,
+                  "color": "dark_gray"
                 },
                 {
-                  "text": "When in offhand, sneak to",
-                  "color": "#8c25d1",
-                  "italic": true
+                  "text": "  resistance upon striking an enemy",
+                  "italic": false,
+                  "color": "dark_gray"
                 },
+                "",
+                [
+                  {
+                    "text": "Ability: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "Warp",
+                    "italic": false,
+                    "color": "light_purple"
+                  }
+                ],
                 {
-                  "text": "preform a transmission",
-                  "color": "#8c25d1",
-                  "italic": true
+                  "text": "  Teleport some distance in front of you",
+                  "italic": false,
+                  "color": "dark_gray"
                 },
+                [
+                  {
+                    "text": "  Level Requirement: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "2",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                [
+                  {
+                    "text": "  Cooldown: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "8 seconds",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
                 "",
                 {
                   "text": "Goofy SMP",
-                  "color": "gold",
+                  "italic": false,
                   "bold": true,
-                  "italic": false
+                  "color": "gold"
                 }
               ]
-            },
-            {
-              "function": "set_name",
-              "name": {
-                "text": "Dragonsbane",
-                "color": "#d206ec",
-                "italic": false
-              }
             },
             {
               "function": "set_components",
@@ -53,7 +98,29 @@
                   "goofy_smp": {
                     "item": "dragonsbane"
                   }
-                }
+                },
+                "consumable": {
+                  "animation": "bow",
+                  "consume_seconds": 1,
+                  "has_consume_particles": false,
+                  "sound": {
+                    "sound_id": "goofy_smp:item.dragonsbane.charge"
+                  },
+                  "on_consume_effects": [
+                    {
+                      "type": "play_sound",
+                      "sound": {
+                        "sound_id": "goofy_smp:item.dragonsbane.warp"
+                      }
+                    }
+                  ]
+                },
+                "item_name": "{\"text\": \"Dragonsbane\",\"color\": \"#d206ec\",\"italic\": false}",
+                "use_cooldown": {
+                  "seconds": 5,
+                  "cooldown_group": "goofy_smp:dragonsbane"
+                },
+                "rarity": "epic"
               }
             }
           ]

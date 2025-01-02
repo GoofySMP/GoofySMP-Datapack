@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "custom_data": {
+              "goofy_smp": {
+                "item": "dragonsbane"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:item/dragonsbane/use"
+  }
+}

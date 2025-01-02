@@ -1,0 +1,2 @@
+$data modify storage goofy_smp:config dragonsbane_warp_distance_display set value $(distance)
+execute store result storage goofy_smp:config dragonsbane_warp_distance int 4 run data get storage goofy_smp:config dragonsbane_warp_distance_display

@@ -1,0 +1,5 @@
+tellraw @a ""
+tellraw @a ""
+tellraw @a ["",{"text":"Goofy SMP","color":"gold","bold":true}," ",{"text":"Config Menu","color":"gray"}]
+tellraw @a "---------------------"
+tellraw @a ["",{"text":"Dragonsbane Warp Distance: ","clickEvent":{"action":"suggest_command","value":"/function .cmd:z_change_value/dragonsbane_warp_distance {distance: }"},"hoverEvent":{"action":"show_text","contents":"Click to get the command to configure\nChange the \"distance\" value"},"color":"gray"},{"clickEvent":{"action":"suggest_command","value":"/function .cmd:z_change_value/dragonsbane_warp_distance {distance: }"},"hoverEvent":{"action":"show_text","contents":"Click to get the command to configure\nChange the \"distance\" value"},"color":"white","nbt":"dragonsbane_warp_distance_display","storage": "goofy_smp:config"},{"clickEvent":{"action":"suggest_command","value":"/function .cmd:z_change_value/dragonsbane_warp_distance {distance: }"},"hoverEvent":{"action":"show_text","contents":"Click to get the command to configure\nChange the \"distance\" value"},"color":"white","text":" blocks"}]

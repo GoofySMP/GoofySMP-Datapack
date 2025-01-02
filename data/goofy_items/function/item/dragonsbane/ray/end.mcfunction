@@ -2,7 +2,6 @@
 
 #teleport
 tp @a[tag=gf.shotSource] ^ ^ ^-.5
-playsound item.chorus_fruit.teleport player @a ~ ~ ~
-playsound entity.illusioner.mirror_move player @a ~ ~ ~
 
-particle portal ~ ~1 ~ .1 .2 .1 .1 50 normal
+particle dust{color:13773811,scale:1} ~ ~1 ~ .5 1 .5 .1 50 force
+particle smoke ~ ~1 ~ .5 1 .5 .1 50 force
