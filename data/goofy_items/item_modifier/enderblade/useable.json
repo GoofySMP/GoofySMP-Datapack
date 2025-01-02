@@ -1,19 +1,19 @@
 {
   "function": "set_components",
   "components": {
-    "item_model": "goofy_smp:dragonsbane",
+    "item_model": "goofy_smp:enderblade_useable",
     "consumable": {
       "animation": "bow",
-      "consume_seconds": 2147483647,
+      "consume_seconds": 1,
       "has_consume_particles": false,
       "sound": {
-        "sound_id": "goofy_smp:item.dragonsbane.charge"
+        "sound_id": "goofy_smp:item.enderblade.charge"
       },
       "on_consume_effects": [
         {
           "type": "play_sound",
           "sound": {
-            "sound_id": "goofy_smp:item.dragonsbane.warp"
+            "sound_id": "goofy_smp:item.enderblade.warp"
           }
         }
       ]

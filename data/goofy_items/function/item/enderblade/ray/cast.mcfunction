@@ -22,5 +22,5 @@ tellraw @a[tag=gf.dev] ["  pit: ",{"nbt": "Rotation[0]","entity": "@s"}]
 tellraw @a[tag=gf.dev] ["  yaw: ",{"nbt": "Rotation[1]","entity": "@s"}]
 
 #starting movement
-execute as @e[tag=gf.teleport_ray,limit=1,sort=nearest] run function goofy_items:item/dragonsbane/ray/ray
+execute as @e[tag=gf.teleport_ray,limit=1,sort=nearest] run function goofy_items:item/enderblade/ray/ray
 tag @s remove gf.shotSource

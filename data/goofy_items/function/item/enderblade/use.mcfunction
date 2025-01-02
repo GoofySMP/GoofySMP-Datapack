@@ -1,8 +1,8 @@
-advancement revoke @s only goofy_items:technical/dragonsbane/use
+advancement revoke @s only goofy_items:technical/enderblade/use
 
-#check which hand dragonsbane is in
-execute if predicate goofy_items:item/dragonsblade_mainhand run tag @s add gf.main
-execute if predicate goofy_items:item/dragonsblade_offhand unless predicate goofy_items:item/dragonsblade_mainhand run tag @s add gf.off
+#check which hand enderblade is in
+execute if predicate goofy_items:item/enderblade_mainhand run tag @s add gf.main
+execute if predicate goofy_items:item/enderblade_offhand unless predicate goofy_items:item/enderblade_mainhand run tag @s add gf.off
 
 #make sure the item doesn't get deleted
 summon item_display ~ ~ ~ {Tags:["gf.spare_slot"]}
@@ -22,4 +22,4 @@ kill @n[tag=gf.spare_slot,distance=...01]
 #warp
 particle reverse_portal ~ ~1 ~ .1 .2 .1 .1 50 normal
 experience add @s -2 levels
-function goofy_items:item/dragonsbane/ray/cast
+function goofy_items:item/enderblade/ray/cast

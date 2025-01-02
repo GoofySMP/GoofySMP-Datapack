@@ -8,13 +8,12 @@ scoreboard objectives add gf.combo dummy
 #NTS: ref is for refresh. used for tracking how long someone goes w/out adding to their combo
 scoreboard objectives add gf.combo_ref dummy
 
-#dragonsbane
+#enderblade
 scoreboard objectives add gf.ray_steps dummy
 
 #> default configs
 scoreboard objectives add gf.config dummy
-execute unless score #loaded gf.config matches 1 run function .cmd:z_change_value/defaults
-scoreboard players set #loaded gf.config 1
+function .cmd:z_change_value/defaults
 
 #> timers
 function goofy_items:clocks/10t

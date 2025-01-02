@@ -4,7 +4,9 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": ""
+        "text": "It grows more powerful in the End",
+        "color": "#79079c",
+        "italic": true
       },
       "",
       [
@@ -83,10 +85,10 @@
   {
     "function": "set_components",
     "components": {
-      "item_model": "goofy_smp:dragonsbane",
+      "item_model": "goofy_smp:enderblade",
       "custom_data": {
         "goofy_smp": {
-          "item": "dragonsbane"
+          "item": "enderblade"
         }
       },
       "consumable": {
@@ -94,21 +96,21 @@
         "consume_seconds": 1,
         "has_consume_particles": false,
         "sound": {
-          "sound_id": "goofy_smp:item.dragonsbane.charge"
+          "sound_id": "goofy_smp:item.enderblade.charge"
         },
         "on_consume_effects": [
           {
             "type": "play_sound",
             "sound": {
-              "sound_id": "goofy_smp:item.dragonsbane.warp"
+              "sound_id": "goofy_smp:item.enderblade.warp"
             }
           }
         ]
       },
-      "item_name": "{\"text\": \"Dragonsbane\",\"color\": \"#d206ec\",\"italic\": false}",
+      "item_name": "{\"text\": \"Warping Enderblade\",\"color\": \"#d206ec\",\"italic\": false}",
       "use_cooldown": {
         "seconds": 5,
-        "cooldown_group": "goofy_smp:dragonsbane"
+        "cooldown_group": "goofy_smp:enderblade"
       },
       "rarity": "epic"
     }

@@ -1,7 +1,7 @@
 ##Custom Items
 
-# Dragonsbane
-execute if predicate goofy_items:item/fix/dragonsbane run function goofy_items:item/fix {item: dragonsbane}
+# Enderblade
+execute if predicate goofy_items:item/fix/enderblade run function goofy_items:item/fix {item: enderblade}
 
 # Withering Blade
 execute if predicate goofy_items:item/fix/withering_blade run function goofy_items:item/fix {item: withering_blade}

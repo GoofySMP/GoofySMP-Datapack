@@ -25,7 +25,7 @@
               "predicates": {
                 "custom_data": {
                   "goofy_smp": {
-                    "item": "dragonsbane"
+                    "item": "enderblade"
                   }
                 }
               }
@@ -36,6 +36,6 @@
     }
   },
   "rewards": {
-    "function": "goofy_items:item/dragonsbane/hit"
+    "function": "goofy_items:item/enderblade/hit"
   }
 }

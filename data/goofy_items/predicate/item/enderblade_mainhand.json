@@ -3,11 +3,11 @@
   "entity": "this",
   "predicate": {
     "equipment": {
-      "offhand": {
+      "mainhand": {
         "predicates": {
           "custom_data": {
             "goofy_smp": {
-              "item": "dragonsbane"
+              "item": "enderblade"
             }
           }
         }

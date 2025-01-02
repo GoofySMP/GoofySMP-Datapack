@@ -8,7 +8,7 @@ kill @n[type=item,nbt={Item:{id:"minecraft:turtle_scute",count:1}},distance=0...
 kill @n[type=item,nbt={Item:{id:"minecraft:dragon_head",count:1}},distance=0...5]
 
 #Spawn the sword
-item modify entity @s container.0 goofy_items:weapon/dragonsbane
+item modify entity @s container.0 goofy_items:weapon/enderblade
 
 #effects
 particle portal ~ ~1 ~ .1 .1 .1 .3 25 normal

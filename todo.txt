@@ -23,7 +23,7 @@ omg this has a checkbox icon in vscode oO
             [ ] 3 (DEFAULT: 25)
         [ ] Getting hit by something breaks the combo? (DEFAULT: YES)
         [ ] Combo cooldown after frenzy? (DEFAULT: NO)
-    [ ] Dragonsbane
+    [ ] Enderblade
         [ ] Transmission distance (DEFAULT: 20 blocks)
         [ ] Cooldown on transmission? (DEFAULT: NO)
         [ ] Cooldown on transmission in combat (DEFAULT: 8 seconds, setting to 0 disables)
