@@ -1,7 +1,7 @@
 #from ../ray
 tellraw @a[tag=gf.dev] {"score": {"name": "@s","objective": "gf.ray_steps"}}
 #check for blocks
-execute if score @s gf.ray_steps matches 0.. unless block ~ ~ ~ #goofy_items:teleport_permeable run function goofy_items:item/enderblade/ray/pre_end
+execute if score @s gf.ray_steps matches 0.. unless block ~ ~ ~ #goofy_items:teleport_permeable run function goofy_items:item/enderblade/ray/pre_end with storage goofy_smp:config
 execute if score @s gf.ray_steps matches 0.. unless block ~ ~ ~ #goofy_items:teleport_permeable run tellraw @a[tag=gf.dev] "Ray: Found Block"
 execute if predicate goofy_items:chance/50 run particle portal ~ ~1 ~ .1 .2 .1 .1 5 force
 #actually moves the ray
