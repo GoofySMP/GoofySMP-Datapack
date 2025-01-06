@@ -2,6 +2,8 @@ omg this has a clock icon in vscode oO
 
 Jan 5th
 ---------
+- Added a new music disc, obtainable only when a wither kills a creeper in the end.
+- Added a new goat horn, obtainable only when a wither kills a goat in the end.
 - Removed todo.txt
 - Added changelog.txt
 - Reworked Withering Blade
