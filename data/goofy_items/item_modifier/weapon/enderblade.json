@@ -83,6 +83,14 @@
     ]
   },
   {
+    "function": "set_name",
+    "name": {
+      "text": "Warping Enderblade",
+      "color": "#d206ec",
+      "italic": false
+    }
+  },
+  {
     "function": "set_components",
     "components": {
       "item_model": "goofy_smp:enderblade",

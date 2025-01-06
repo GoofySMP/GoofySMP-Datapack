@@ -1,0 +1,55 @@
+omg this has a clock icon in vscode oO
+
+Jan 5th
+---------
+- Removed todo.txt
+- Added changelog.txt
+- Reworked Withering Blade
+    - Renamed to Deathless Decay
+    - Rebalanced Frenzy ability
+        - 50% chance to break a combo when taking damage (used to be 100%)
+        - Buffed frenzy stages
+            - Stage 1 now gives Strength 2, Speed 3, Haste 2. Requires a 5-hit-long unbroken combo
+            - Stage 2 now gives Strength 3, Speed 4, Haste 3. Requires a 15-hit-long unbroken combo
+            - Stage 3 now gives Strength 4, Speed 5, Haste 4. Requires a 25-hit-long unbroken combo
+        - Added Wither buffing
+            - If a wither is within 32 blocks of a player holding a Deathless Decay, they will recieve the following effects:
+                * Withering ability will ALWAYS apply Wither I with a 50% chance to apply Wither III every hit
+                * Comboing no longer requires a Nether Star
+                * Combos will have a 25% chance to break when hit
+    - Rewrote item tooltip
+- Added per-player scaling. Some players will be slightly taller or shorter than others.
+- Added new CWT
+    - Jettison (Crafted with 1 gold block, 1 diamond, and 1 bow)
+    - Karma (Crafted with 1 netherite imperon, 1 red dye, and 1 diamond)
+    - NEIVA (crafted with 1 crossbow, 1 netherite ingot, and 1 redstone block)
+- Added a Custom Helmet Texture 
+    - Netherite Faceplate (Crafted with 1 Netherite Helmet and 1 Shears. Shears will be consumed on craft)
+- Fixed bug where Warping Enderblade doesn't teleport you through blocks
+
+Jan 2nd
+---------
+Fixed bug where Warping Enderblade doesn't teleport you through Glass panes
+
+Jan 1st
+---------
+- Reworked Dragonsbane
+    - Renamed to Warping Enderblade
+    - Reworked the Transmission functionality
+        - Renamed to Warp
+        - You now right click the sword to charge a warp
+        - Warps still cost 2 levels to preform, but that cost is eliminated in The End
+        - You require 2 levels to preform a warp, regardless of dimension
+        - Warps now have a 5-second cooldown
+        - Added config to modify the warp distance of the Enderblade (/function .cmd:config)
+    - Named that regeneration ability Crystal Guard
+    - Crystal Guard has a 25% chance to apply per hit (this was always the case, the thing I used to determine that)
+    - Rewrote item tooltip
+- Fixed bug where the music disc 'OMOCAT - My Time' was named incorrectly
+- Removed unused disc code and scoreboards
+- Fixed bug where Custom weapons textures (CWT) didn't update
+
+Dec 31st 2024
+---------
+- Updated datapack to 1.21.4
+- Old items will automatically update

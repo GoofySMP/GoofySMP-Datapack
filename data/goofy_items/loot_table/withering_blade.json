@@ -14,34 +14,91 @@
               "mode": "replace_all",
               "lore": [
                 {
-                  "text": "When powered by a nether star,",
-                  "color": "#6c7477",
-                  "italic": true
-                },
-                {
-                  "text": "it activates a frenzy upon",
-                  "color": "#6c7477",
-                  "italic": true
-                },
-
-                {
-                  "text": "enough consecutive strikes",
+                  "text": "Stengthened by the tricephalic demon",
                   "color": "#6c7477",
                   "italic": true
                 },
                 "",
+                [
+                  {
+                    "text": "Ability: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "Decaying Touch",
+                    "italic": false,
+                    "color": "#333333"
+                  }
+                ],
+                {
+                  "text": "  Chance to apply Wither II to anything it ",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "  strikes. If a Wither is nearby, it will ",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "  always apply Wither I, with a chance for",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "  Wither III",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                "",
+                [
+                  {
+                    "text": "Ability: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "Restless Frenzy",
+                    "italic": false,
+                    "color": "gold"
+                  }
+                ],
+                {
+                  "text": "  Grants strength haste upon enough",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                {
+                  "text": "  consecutive strikes",
+                  "italic": false,
+                  "color": "dark_gray"
+                },
+                [
+                  {
+                    "text": "  Offhand Requirement: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "text": "Nether Star",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                "",
                 {
                   "text": "Goofy SMP",
-                  "color": "gold",
+                  "italic": false,
                   "bold": true,
-                  "italic": false
+                  "color": "gold"
                 }
               ]
             },
             {
               "function": "set_name",
               "name": {
-                "text": "Withering Blade",
+                "text": "Deathless Decay",
                 "color": "#4f6b79",
                 "italic": false
               }
@@ -54,7 +111,8 @@
                   "goofy_smp": {
                     "item": "withering_blade"
                   }
-                }
+                },
+                "item_name": "{\"text\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
               }
             }
           ]

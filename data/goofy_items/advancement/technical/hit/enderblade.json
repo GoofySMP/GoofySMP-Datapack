@@ -14,7 +14,7 @@
             ]
           },
           "dealt": {
-            "min": 8
+            "min": 7
           }
         },
         "player": {

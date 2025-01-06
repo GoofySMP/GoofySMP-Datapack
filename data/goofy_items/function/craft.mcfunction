@@ -140,3 +140,26 @@ execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1}}] unless dat
 if entity @n[type=item,nbt={Item:{id:"minecraft:emerald",count:1}},distance=0...5] \
 if entity @n[type=item,nbt={Item:{id:"minecraft:gilded_blackstone",count:1,}},distance=0...5] \
 run function goofy_items:item/textures/twil_blades
+
+# Karma
+execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"goofy_smp:imperon"}}}] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:diamond",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:red_dye",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/karma
+
+# Jettison
+execute as @s[nbt= {Item: {id: "minecraft:bow",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
+if entity @n[type=item,nbt={Item:{id:"minecraft:diamond",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:gold_block",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/jettison
+
+# NEIVA
+execute as @s[nbt= {Item: {id: "minecraft:crossbow",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
+if entity @n[type=item,nbt={Item:{id:"minecraft:netherite_ingot",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:redstone_block",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/neiva
+
+# Netherite Faceplate
+execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
+if entity @n[type=item,nbt={Item:{id:"minecraft:shears",count:1}},distance=0...5] \
+run function goofy_items:item/textures/netherite_faceplate

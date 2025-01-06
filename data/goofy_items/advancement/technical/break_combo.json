@@ -10,6 +10,6 @@
     }
   },
   "rewards": {
-    "function": "goofy_items:item/wither_blade/combo/reset"
+    "function": "goofy_items:item/wither_blade/combo/reset_chance"
   }
 }

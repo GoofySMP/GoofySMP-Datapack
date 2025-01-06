@@ -1,5 +1,4 @@
-[
-  {
+{
     "function": "set_lore",
     "mode": "replace_all",
     "lore": [
@@ -76,18 +75,6 @@
           "color": "green"
         }
       ],
-      [
-        {
-          "text": "  Cooldown: ",
-          "italic": false,
-          "color": "gray"
-        },
-        {
-          "text": "5 seconds",
-          "italic": false,
-          "color": "green"
-        }
-      ],
       "",
       {
         "text": "Goofy SMP",
@@ -96,25 +83,4 @@
         "color": "gold"
       }
     ]
-  },
-  {
-    "function": "set_name",
-    "name": {
-      "text": "Deathless Decay",
-      "color": "#4f6b79",
-      "italic": false
-    }
-  },
-  {
-    "function": "set_components",
-    "components": {
-      "item_model": "goofy_smp:withering_blade",
-      "custom_data": {
-        "goofy_smp": {
-          "item": "withering_blade"
-        }
-      },
-      "item_name": "{\"text\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
-    }
   }
-]
