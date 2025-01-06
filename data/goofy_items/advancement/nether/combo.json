@@ -6,8 +6,10 @@
     },
     "display": {
         "icon": {
-            "item": "netherite_sword",
-            "nbt": "{CustomModelData:100}"
+            "id": "netherite_sword",
+            "components": {
+                "item_model": "goofy_smp:withering_blade"
+            }
         },
         "description": {
             "text": "Successfully land a 50 hit combo with the Withering Blade"
