@@ -1,14 +1,17 @@
 omg this has an info icon in vscode oO
+Jan 9th
+---
+- Fixed a bug in the resourcepack where the Enchanted Golden Apple was not retextured (#2)
 
 Jan 6th
----------
+---
 - Updated Changelog to reflect actual changes (#15)
 - Renamed changelog.txt to README.md
 - Fixed 'Thirst For Decay' advancement being invalid (#14)
 - Fixed Warping Enderblade not teleporting you through various blocks (#16)
 
 Jan 5th
----------
+---
 - Added a new music disc, obtainable only when a wither kills a creeper in the end.
 - Added a new goat horn, obtainable only when a wither kills a goat in the end.
 - Removed todo.txt
@@ -37,11 +40,11 @@ Jan 5th
 - Fixed bug where Warping Enderblade doesn't teleport you through copper grates (#13)
 
 Jan 2nd
----------
+---
 Fixed bug where Warping Enderblade doesn't teleport you through Glass panes (#12)
 
 Jan 1st
----------
+---
 - Reworked Dragonsbane
     - Renamed to Warping Enderblade
     - Reworked the Transmission functionality
@@ -72,6 +75,6 @@ Jan 1st
 
 
 Dec 31st 2024
----------
+---
 - Updated datapack to 1.21.4
 - Old items will automatically update
