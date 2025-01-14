@@ -157,6 +157,16 @@
           "type": "loot_table",
           "weight": 1,
           "value": "goofy_discs:discs/holding_out_for_a_hero"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/georgia_devil"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/run_it"
         }
       ],
       "rolls": 1

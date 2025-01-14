@@ -21,3 +21,5 @@ loot give @s loot goofy_discs:discs/concerning_hobbits
 loot give @s loot goofy_discs:discs/papers_please_theme
 loot give @s loot goofy_discs:discs/silly_billy
 loot give @s loot goofy_discs:discs/holding_out_for_a_hero
+loot give @s loot goofy_discs:discs/georgia_devil
+loot give @s loot goofy_discs:discs/run_it

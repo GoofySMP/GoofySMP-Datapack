@@ -147,6 +147,11 @@
           "value": "goofy_discs:discs/i_am_all_of_me"
         },
         {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "value": "goofy_discs:discs/run_it"
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {
