@@ -1,4 +1,13 @@
-omg this has an info icon in vscode oO
+omg this has an info icon in vscode o0
+
+Jan 13th
+---
+Added two new discs  
+- **Charlie Daniels - The Devil Went Down to Georgia**  
+Obtainable in Ancient Cities and through the creeper method
+- **Jelly Roll - Run It**  
+Obtainable in Desert Temples and through the creeper method
+
 Jan 9th
 ---
 - Fixed a bug in the resourcepack where the Enchanted Golden Apple was not retextured (#2)
