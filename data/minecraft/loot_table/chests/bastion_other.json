@@ -127,6 +127,11 @@
           "value": "goofy_discs:discs/butcher_vanity"
         },
         {
+          "type": "loot_table",
+          "weight": 5,
+          "value": "goofy_discs:discs/verses_extended"
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {

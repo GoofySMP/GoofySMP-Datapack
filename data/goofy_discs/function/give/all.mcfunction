@@ -23,3 +23,4 @@ loot give @s loot goofy_discs:discs/silly_billy
 loot give @s loot goofy_discs:discs/holding_out_for_a_hero
 loot give @s loot goofy_discs:discs/georgia_devil
 loot give @s loot goofy_discs:discs/run_it
+loot give @s loot goofy_discs:discs/verses_extended

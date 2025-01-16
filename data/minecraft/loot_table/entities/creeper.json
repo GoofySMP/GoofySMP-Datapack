@@ -167,6 +167,11 @@
           "type": "loot_table",
           "weight": 1,
           "value": "goofy_discs:discs/run_it"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/verses_extended"
         }
       ],
       "rolls": 1
