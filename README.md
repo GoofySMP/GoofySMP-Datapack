@@ -1,5 +1,16 @@
 omg this has an info icon in vscode o0
 
+# README
+This is the datapack specifically designed for a Minecraft SMP. There *is* a required resourcepack, but due to some of the discs containing copyrighted music, it is unaccessable by the public. Sorry for the inconvenience.
+
+# CHANGELOG
+
+Jan 16th
+---
+- Added "Umbra Extensions - Verses [Extended]"  
+Currently using default texture, will update at later date (RP #5)
+
+
 Jan 13th
 ---
 Added two new discs  
@@ -10,7 +21,7 @@ Obtainable in Desert Temples and through the creeper method
 
 Jan 9th
 ---
-- Fixed a bug in the resourcepack where the Enchanted Golden Apple was not retextured (#2)
+- Fixed a bug in the resourcepack where the Enchanted Golden Apple was not retextured (RP #2)
 
 Jan 6th
 ---
