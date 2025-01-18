@@ -95,7 +95,7 @@
             {
               "function": "set_name",
               "name": {
-                "text": "Warping Enderblade",
+                "text": "Endersbane",
                 "color": "#d206ec",
                 "italic": false
               }
@@ -125,7 +125,7 @@
                     }
                   ]
                 },
-                "item_name": "{\"text\": \"Warping Enderblade\",\"color\": \"#d206ec\",\"italic\": false}",
+                "item_name": "{\"text\": \"Endersbane\",\"color\": \"#d206ec\",\"italic\": false}",
                 "use_cooldown": {
                   "seconds": 5,
                   "cooldown_group": "goofy_smp:enderblade"
