@@ -9,6 +9,7 @@ DO NOT REDISTRIBUTE WITHOUT EXPLICIT PERMISSION!
 Jan 18th
 ---
 - Renamed Warping Enderblade to Endersbane
+- Fixed "Umbra Extensions - Verses [Extended]" using the default texture (RP #5)
 
 
 Jan 16th
