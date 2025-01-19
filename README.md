@@ -6,6 +6,10 @@ This is the datapack specifically designed for a Minecraft SMP. There *is* a req
 DO NOT REDISTRIBUTE WITHOUT EXPLICIT PERMISSION!
 
 # CHANGELOG
+Jan 19th
+---
+- Added a new painting varient. I ain't spoiling what it is, just know that it's a 4x4 painting.
+
 Jan 18th
 ---
 - Renamed Warping Enderblade to Endersbane
