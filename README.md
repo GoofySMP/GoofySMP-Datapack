@@ -9,6 +9,7 @@ DO NOT REDISTRIBUTE WITHOUT EXPLICIT PERMISSION!
 Jan 19th
 ---
 - Added a new painting varient. I ain't spoiling what it is, just know that it's a 4x4 painting.
+- Tweaked tooltip of Deathless Decay whenevera wither is in range to more clearly convey that a Nether Star is not required
 
 Jan 18th
 ---
