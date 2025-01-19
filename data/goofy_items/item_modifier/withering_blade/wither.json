@@ -67,6 +67,7 @@
         {
           "text": "  Offhand Requirement: ",
           "italic": false,
+          "strikethrough": true,
           "color": "gray"
         },
         {
