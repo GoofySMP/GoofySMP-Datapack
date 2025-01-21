@@ -1,0 +1,14 @@
+{
+  "asset_id": "goofy_smp:burning_skull",
+  "author": {
+    "color": "gray",
+    "translate": "painting.minecraft.burning_skull.author"
+  },
+  "title": {
+    "color": "yellow",
+    "translate": "painting.goofy_smp.spinning_skull_on_fire.title",
+    "fallback": "Spinning Skull On Fire"
+  },
+  "height": 4,
+  "width": 4
+}
