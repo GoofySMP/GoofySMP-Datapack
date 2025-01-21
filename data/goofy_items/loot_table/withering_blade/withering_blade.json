@@ -14,9 +14,9 @@
               "mode": "replace_all",
               "lore": [
                 {
-                  "translate": "goofy_smp.item.enderblade.description",
-                  "fallback": "It grows more powerful in the End",
-                  "color": "#79079c",
+                  "translate": "goofy_smp.item.withering_blade.description",
+                  "fallback": "Stengthened by the tricephalic demon",
+                  "color": "#6c7477",
                   "italic": true
                 },
                 "",
@@ -28,17 +28,17 @@
                     "color": "gray"
                   },
                   {
-                    "translate": "goofy_smp.tooltip.ability.crystal_guard.name",
-                    "fallback": "Crystal Guard",
+                    "translate": "goofy_smp.tooltip.ability.decaying_touch.name",
+                    "fallback": "Decaying Touch",
                     "italic": false,
-                    "color": "white"
+                    "color": "#333333"
                   }
                 ],
                 [
                   "  ",
                   {
-                    "translate": "goofy_smp.tooltip.ability.crystal_guard.desc.1",
-                    "fallback": "Chance to grant brief regeneration and ",
+                    "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.1",
+                    "fallback": "Chance to apply Wither II to anything it ",
                     "italic": false,
                     "color": "dark_gray"
                   }
@@ -46,8 +46,8 @@
                 [
                   "  ",
                   {
-                    "translate": "goofy_smp.tooltip.ability.crystal_guard.desc.2",
-                    "fallback": "resistance upon striking an enemy",
+                    "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.2",
+                    "fallback": "strikes. If a Wither is nearby, it will ",
                     "italic": false,
                     "color": "dark_gray"
                   }
@@ -61,17 +61,17 @@
                     "color": "gray"
                   },
                   {
-                    "translate": "goofy_smp.tooltip.ability.warp.name",
-                    "fallback": "Warp",
+                    "translate": "goofy_smp.tooltip.ability.restless_frenzy.name",
+                    "fallback": "Restless Frenzy",
                     "italic": false,
-                    "color": "light_purple"
+                    "color": "gold"
                   }
                 ],
                 [
                   "  ",
                   {
-                    "translate": "goofy_smp.tooltip.ability.warp.desc.1",
-                    "fallback": "Teleport some distance in front of you",
+                    "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.1",
+                    "fallback": "Grants strength haste upon enough",
                     "italic": false,
                     "color": "dark_gray"
                   }
@@ -79,27 +79,23 @@
                 [
                   "  ",
                   {
-                    "translate": "goofy_smp.tooltip.requirement.level",
-                    "fallback": "Level Requirement: ",
+                    "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.2",
+                    "fallback": "consecutive strikes",
                     "italic": false,
-                    "color": "gray"
-                  },
-                  {
-                    "text": "2",
-                    "italic": false,
-                    "color": "green"
+                    "color": "dark_gray"
                   }
                 ],
                 [
                   "  ",
                   {
-                    "translate": "goofy_smp.tooltip.cooldown",
-                    "fallback": "Cooldown: ",
+                    "translate": "goofy_smp.tooltip.requirement.offhand",
+                    "fallback": "Offhand Requirement: ",
                     "italic": false,
                     "color": "gray"
                   },
                   {
-                    "text": "5 seconds",
+                    "translate": "item.minecraft.nether_star",
+                    "fallback": "Nether Star",
                     "italic": false,
                     "color": "green"
                   }
@@ -117,43 +113,22 @@
             {
               "function": "set_name",
               "name": {
-                "translate": "goofy_smp.item.enderblade.name",
-                "fallback": "Endersbane",
-                "color": "#d206ec",
+                "translate": "goofy_smp.item.withering_blade.name",
+                "fallback": "Deathless Decay",
+                "color": "#4f6b79",
                 "italic": false
               }
             },
             {
               "function": "set_components",
               "components": {
-                "item_model": "goofy_smp:enderblade",
+                "item_model": "goofy_smp:withering_blade",
                 "custom_data": {
                   "goofy_smp": {
-                    "item": "enderblade"
+                    "item": "withering_blade"
                   }
                 },
-                "consumable": {
-                  "animation": "bow",
-                  "consume_seconds": 1,
-                  "has_consume_particles": false,
-                  "sound": {
-                    "sound_id": "goofy_smp:item.enderblade.charge"
-                  },
-                  "on_consume_effects": [
-                    {
-                      "type": "play_sound",
-                      "sound": {
-                        "sound_id": "goofy_smp:item.enderblade.warp"
-                      }
-                    }
-                  ]
-                },
-                "item_name": "{\"translate\": \"goofy_smp.item.enderblade.name\",\"fallback\": \"Endersbane\",\"color\": \"#d206ec\",\"italic\": false}",
-                "use_cooldown": {
-                  "seconds": 5,
-                  "cooldown_group": "goofy_smp:enderblade"
-                },
-                "rarity": "epic"
+                "item_name": "{\"translate\": \"goofy_smp.item.withering_blade.name\",\"fallback\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
               }
             }
           ]

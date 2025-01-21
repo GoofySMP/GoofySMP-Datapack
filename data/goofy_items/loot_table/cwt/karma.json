@@ -1,0 +1,52 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "netherite_sword",
+          "functions": [
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "goofy_smp": {
+                  "texture": true
+                }
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "goofy_smp:karma",
+                "item_name": "{\"translate\": \"goofy_smp.item.netherite_imperon\",\"fallback\": \"Netherite Imperon\"}"
+              }
+            },
+            {
+              "function": "set_attributes",
+              "replace": false,
+              "modifiers": [
+                {
+                  "amount": -0.25,
+                  "attribute": "attack_speed",
+                  "id": "goofy_items:weapon.imperon",
+                  "operation": "add_multiplied_base",
+                  "slot": "mainhand"
+                },
+                {
+                  "amount": 1,
+                  "attribute": "entity_interaction_range",
+                  "id": "goofy_items:weapon.imperon",
+                  "operation": "add_value",
+                  "slot": "mainhand"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
