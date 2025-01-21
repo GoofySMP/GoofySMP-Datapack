@@ -20,7 +20,7 @@
                   "swappable": true
                 },
                 "item_model": "goofy_smp:netherite_faceplate",
-                "item_name": "\"Netherite Faceplate\""
+                "item_name": "{\"translate\": \"item.goofy_smp.netherite_faceplace\",\"fallback\": \"Netherite Faceplate\"}"
               }
             }
           ]

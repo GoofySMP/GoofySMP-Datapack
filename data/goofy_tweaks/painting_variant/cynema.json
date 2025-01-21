@@ -1,7 +1,15 @@
 {
-    "asset_id": "goofy_smp:cynema",
-    "author": "@tsukyiio",
-    "title": "Absolute Cynema",
-    "height": 4,
-    "width": 4
+  "asset_id": "goofy_smp:cynema",
+  "author": {
+    "color": "gray",
+    "translate": "painting.goofy_smp.cynema.author",
+    "fallback": "@tsukyiio"
+  },
+  "title": {
+    "color": "yellow",
+    "translate": "painting.goofy_smp.cynema.title",
+    "fallback": "Absolute Cynema"
+  },
+  "height": 4,
+  "width": 4
 }

@@ -4,93 +4,96 @@
     "mode": "replace_all",
     "lore": [
       {
-        "text": "Stengthened by the tricephalic demon",
+        "translate": "goofy_smp.item.withering_blade.description",
+        "fallback": "Stengthened by the tricephalic demon",
         "color": "#6c7477",
         "italic": true
       },
       "",
       [
         {
-          "text": "Ability: ",
+          "translate": "goofy_smp.tooltip.ability",
+          "fallback": "Ability: ",
           "italic": false,
           "color": "gray"
         },
         {
-          "text": "Decaying Touch",
+          "translate": "goofy_smp.tooltip.ability.decaying_touch.name",
+          "fallback": "Decaying Touch",
           "italic": false,
           "color": "#333333"
         }
       ],
-      {
-        "text": "  Chance to apply Wither II to anything it ",
-        "italic": false,
-        "color": "dark_gray"
-      },
-      {
-        "text": "  strikes. If a Wither is nearby, it will ",
-        "italic": false,
-        "color": "dark_gray"
-      },
-      {
-        "text": "  always apply Wither I, with a chance for",
-        "italic": false,
-        "color": "dark_gray"
-      },
-      {
-        "text": "  Wither III",
-        "italic": false,
-        "color": "dark_gray"
-      },
+      [
+        "  ",
+        {
+          "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.1",
+          "fallback": "Chance to apply Wither II to anything it ",
+          "italic": false,
+          "color": "dark_gray"
+        }
+      ],
+      [
+        "  ",
+        {
+          "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.2",
+          "fallback": "strikes. If a Wither is nearby, it will ",
+          "italic": false,
+          "color": "dark_gray"
+        }
+      ],
       "",
       [
         {
-          "text": "Ability: ",
+          "translate": "goofy_smp.tooltip.ability",
+          "fallback": "Ability: ",
           "italic": false,
           "color": "gray"
         },
         {
-          "text": "Restless Frenzy",
+          "translate": "goofy_smp.tooltip.ability.restless_frenzy.name",
+          "fallback": "Restless Frenzy",
           "italic": false,
           "color": "gold"
         }
       ],
-      {
-        "text": "  Grants strength haste upon enough",
-        "italic": false,
-        "color": "dark_gray"
-      },
-      {
-        "text": "  consecutive strikes",
-        "italic": false,
-        "color": "dark_gray"
-      },
       [
+        "  ",
         {
-          "text": "  Offhand Requirement: ",
+          "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.1",
+          "fallback": "Grants strength haste upon enough",
           "italic": false,
-          "color": "gray"
-        },
-        {
-          "text": "Nether Star",
-          "italic": false,
-          "color": "green"
+          "color": "dark_gray"
         }
       ],
       [
+        "  ",
         {
-          "text": "  Cooldown: ",
+          "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.2",
+          "fallback": "consecutive strikes",
+          "italic": false,
+          "color": "dark_gray"
+        }
+      ],
+      [
+        "  ",
+        {
+          "translate": "goofy_smp.tooltip.requirement.offhand",
+          "fallback": "Offhand Requirement: ",
           "italic": false,
           "color": "gray"
         },
         {
-          "text": "5 seconds",
+          "translate": "item.minecraft.nether_star",
+          "fallback": "Nether Star",
           "italic": false,
           "color": "green"
         }
       ],
       "",
       {
-        "text": "Goofy SMP",
+        "translate": "goofy_smp",
+        "fallback": "Goofy SMP",
         "italic": false,
         "bold": true,
         "color": "gold"
@@ -100,7 +103,8 @@
   {
     "function": "set_name",
     "name": {
-      "text": "Deathless Decay",
+      "translate": "goofy_smp.item.withering_blade.name",
+      "fallback": "Deathless Decay",
       "color": "#4f6b79",
       "italic": false
     }
@@ -114,7 +118,7 @@
           "item": "withering_blade"
         }
       },
-      "item_name": "{\"text\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
+      "item_name": "{\"translate\": \"goofy_smp.item.withering_blade.name\",\"fallback\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
     }
   }
 ]
