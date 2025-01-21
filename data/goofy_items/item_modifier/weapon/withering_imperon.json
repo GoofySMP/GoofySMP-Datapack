@@ -120,5 +120,25 @@
       },
       "item_name": "{\"translate\": \"goofy_smp.item.withering_blade.name\",\"fallback\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
     }
+  },
+  {
+    "function": "set_attributes",
+    "replace": false,
+    "modifiers": [
+      {
+        "amount": -0.25,
+        "attribute": "attack_speed",
+        "id": "goofy_items:weapon.imperon",
+        "operation": "add_multiplied_base",
+        "slot": "mainhand"
+      },
+      {
+        "amount": 1,
+        "attribute": "entity_interaction_range",
+        "id": "goofy_items:weapon.imperon",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
   }
 ]
