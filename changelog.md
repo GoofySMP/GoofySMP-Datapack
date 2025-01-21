@@ -1,4 +1,23 @@
 # CHANGELOG
+Jan 20th
+---
+- Created a todo file (probably redundant but WHATEVER)
+- Armour trims can now be removed by tossing a trimmed piece of armour and an axe on a smithing table.  
+It is planned to change this to use the smithing table GUI
+- Added "Spinning Skull On Fire" painting from [Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/)
+- Some item names and tooltips are now driven by a lang file. This allows for translations, so if anyone wants to pitch their hat in that pot, make a fork
+- Removed the broken function `goofy_items:item/textures/give_all` that was just never updated to 1.21.4.
+- Imperons have reworked attributes.  
+    - Same attack damage as a netherite sword
+    - Increased attack range by 1 block
+    - Decreased attack speed by 25%
+- Added Netherite Elytra
+    - Crafted in the smithing table with an **Elytra**, **Netherite Ingot**, and **Netherite Upgrade Smithing Template**
+    - Has 502 durability
+    - Is immune to fire and lava like all other netherite items
+- Added an item modifier for an Imperon version of the Deathless Decay
+- Added textures in resourcepack for a quartz version of the Deathless Decay
+
 Jan 19th
 ---
 - Added a new painting varient. I ain't spoiling what it is, just know that it's a 4x4 painting.
