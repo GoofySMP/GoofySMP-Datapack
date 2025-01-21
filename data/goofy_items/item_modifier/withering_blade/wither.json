@@ -1,88 +1,103 @@
 {
-    "function": "set_lore",
-    "mode": "replace_all",
-    "lore": [
+  "function": "set_lore",
+  "mode": "replace_all",
+  "lore": [
+    {
+      "translate": "goofy_smp.item.withering_blade.description",
+      "fallback": "Stengthened by the tricephalic demon",
+      "color": "#6c7477",
+      "italic": true
+    },
+    "",
+    [
       {
-        "text": "Stengthened by the tricephalic demon",
-        "color": "#6c7477",
-        "italic": true
+        "translate": "goofy_smp.tooltip.ability",
+        "fallback": "Ability: ",
+        "italic": false,
+        "color": "gray"
       },
-      "",
-      [
-        {
-          "text": "Ability: ",
-          "italic": false,
-          "color": "gray"
-        },
-        {
-          "text": "Decaying Touch",
-          "italic": false,
-          "color": "#333333"
-        }
-      ],
       {
-        "text": "  Chance to apply Wither II to anything it ",
+        "translate": "goofy_smp.tooltip.ability.decaying_touch.name",
+        "fallback": "Decaying Touch",
+        "italic": false,
+        "color": "#333333"
+      }
+    ],
+    [
+      "  ",
+      {
+        "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.1",
+        "fallback": "Chance to apply Wither II to anything it ",
         "italic": false,
         "color": "dark_gray"
-      },
+      }
+    ],
+    [
+      "  ",
       {
-        "text": "  strikes. If a Wither is nearby, it will ",
+        "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.2",
+        "fallback": "strikes. If a Wither is nearby, it will ",
         "italic": false,
         "color": "dark_gray"
+      }
+    ],
+    "",
+    [
+      {
+        "translate": "goofy_smp.tooltip.ability",
+        "fallback": "Ability: ",
+        "italic": false,
+        "color": "gray"
       },
       {
-        "text": "  always apply Wither I, with a chance for",
+        "translate": "goofy_smp.tooltip.ability.restless_frenzy.name",
+        "fallback": "Restless Frenzy",
         "italic": false,
-        "color": "dark_gray"
-      },
-      {
-        "text": "  Wither III",
-        "italic": false,
-        "color": "dark_gray"
-      },
-      "",
-      [
-        {
-          "text": "Ability: ",
-          "italic": false,
-          "color": "gray"
-        },
-        {
-          "text": "Restless Frenzy",
-          "italic": false,
-          "color": "gold"
-        }
-      ],
-      {
-        "text": "  Grants strength haste upon enough",
-        "italic": false,
-        "color": "dark_gray"
-      },
-      {
-        "text": "  consecutive strikes",
-        "italic": false,
-        "color": "dark_gray"
-      },
-      [
-        {
-          "text": "  Offhand Requirement: ",
-          "italic": false,
-          "strikethrough": true,
-          "color": "gray"
-        },
-        {
-          "text": "Nether Star",
-          "italic": false,
-          "strikethrough": true,
-          "color": "green"
-        }
-      ],
-      "",
-      {
-        "text": "Goofy SMP",
-        "italic": false,
-        "bold": true,
         "color": "gold"
       }
-    ]
-  }
+    ],
+    [
+      "  ",
+      {
+        "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.1",
+        "fallback": "Grants strength haste upon enough",
+        "italic": false,
+        "color": "dark_gray"
+      }
+    ],
+    [
+      "  ",
+      {
+        "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.2",
+        "fallback": "consecutive strikes",
+        "italic": false,
+        "color": "dark_gray"
+      }
+    ],
+    [
+      "  ",
+      {
+        "translate": "goofy_smp.tooltip.requirement.offhand",
+        "fallback": "Offhand Requirement: ",
+        "italic": false,
+        "color": "gray",
+        "strikethrough": true
+      },
+      {
+        "translate": "item.minecraft.nether_star",
+        "fallback": "Nether Star",
+        "italic": false,
+        "color": "green",
+        "strikethrough": true
+      }
+    ],
+    "",
+    {
+      "translate": "goofy_smp",
+      "fallback": "Goofy SMP",
+      "italic": false,
+      "bold": true,
+      "color": "gold"
+    }
+  ]
+}
