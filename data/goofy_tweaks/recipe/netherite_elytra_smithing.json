@@ -11,7 +11,9 @@
         "slot": "chest",
         "asset_id": "goofy_smp:elytra_netherite",
         "damage_on_hurt": false,
-        "equip_sound": "item.armor.equip_elytra"
+        "equip_sound": {
+          "sound_id": "goofy_smp:item.armor.equip_elytra_netherite"
+        }
       },
       "max_damage": 502,
       "attribute_modifiers": {
@@ -28,7 +30,7 @@
       "damage_resistant": {
         "types": "#is_fire"
       },
-      "item_name": "\"Netherite Elytra\""
+      "item_name": "{\"translate\": \"goofy_smp.item.elytra_netherite\",\"fallback\": \"Netherite Elytra\"}"
     }
   }
 }
