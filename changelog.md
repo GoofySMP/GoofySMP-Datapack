@@ -19,7 +19,7 @@ It is planned to change this to use the smithing table GUI
 - Added "Spinning Skull On Fire" painting from [Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/)
 ### Changes
 - Reformatted changelog to reflect minecraft snapshot logs.
-- **Item names and tooltips are now driven by a lang file.** This allows for translations, so if anyone wants to pitch their hat in that pot, make a fork! ([DP #22](https://github.com/GoofySMP/GoofySMP-Datapack/issues/22))
+- **Item names and tooltips are now driven by a lang file.** This allows for translations into other languages. ([DP #22](https://github.com/GoofySMP/GoofySMP-Datapack/issues/22))
 - All imperons have reworked attributes.  
     - Same attack damage as a netherite sword
     - Increased attack range by 1 block
