@@ -14,7 +14,6 @@ loot give @s loot goofy_items:item/cwt/karma
 loot give @s loot goofy_items:item/cwt/limegreepvp
 loot give @s loot goofy_items:item/cwt/orphan_obliterator
 loot give @s loot goofy_items:item/cwt/run_gun
-loot give @s loot goofy_items:item/cwt/sam_rail
 loot give @s loot goofy_items:item/cwt/sauron_mace
 loot give @s loot goofy_items:item/cwt/toothbrush_shiv
 loot give @s loot goofy_items:item/cwt/twil_blades

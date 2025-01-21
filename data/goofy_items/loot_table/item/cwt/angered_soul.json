@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "netherite_sword",
+          "name": "netherite_axe",
           "functions": [
             {
               "function": "set_custom_data",

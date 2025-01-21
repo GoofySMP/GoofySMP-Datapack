@@ -161,12 +161,6 @@ if entity @n[type=item,nbt={Item:{id:"minecraft:diamond",count:1}},distance=0...
 if entity @n[type=item,nbt={Item:{id:"minecraft:gold_block",count:1,}},distance=0...5] \
 run function goofy_items:item/textures/jettison
 
-# NEIVA
-execute as @s[nbt= {Item: {id: "minecraft:crossbow",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
-if entity @n[type=item,nbt={Item:{id:"minecraft:netherite_ingot",count:1}},distance=0...5] \
-if entity @n[type=item,nbt={Item:{id:"minecraft:redstone_block",count:1,}},distance=0...5] \
-run function goofy_items:item/textures/neiva
-
 # Netherite Faceplate
 execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
 if entity @n[type=item,nbt={Item:{id:"minecraft:shears",count:1}},distance=0...5] \
