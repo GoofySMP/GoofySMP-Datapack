@@ -1,0 +1,139 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "netherite_sword",
+          "functions": [
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "translate": "goofy_smp.item.withering_blade.description",
+                  "fallback": "Stengthened by the tricephalic demon",
+                  "color": "#6c7477",
+                  "italic": true
+                },
+                "",
+                [
+                  {
+                    "translate": "goofy_smp.tooltip.ability",
+                    "fallback": "Ability: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "goofy_smp.tooltip.ability.decaying_touch.name",
+                    "fallback": "Decaying Touch",
+                    "italic": false,
+                    "color": "#333333"
+                  }
+                ],
+                [
+                  "  ",
+                  {
+                    "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.1",
+                    "fallback": "Chance to apply Wither II to anything it ",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                [
+                  "  ",
+                  {
+                    "translate": "goofy_smp.tooltip.ability.decaying_touch.desc.2",
+                    "fallback": "strikes. If a Wither is nearby, it will ",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                "",
+                [
+                  {
+                    "translate": "goofy_smp.tooltip.ability",
+                    "fallback": "Ability: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "goofy_smp.tooltip.ability.restless_frenzy.name",
+                    "fallback": "Restless Frenzy",
+                    "italic": false,
+                    "color": "gold"
+                  }
+                ],
+                [
+                  "  ",
+                  {
+                    "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.1",
+                    "fallback": "Grants strength haste upon enough",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                [
+                  "  ",
+                  {
+                    "translate": "goofy_smp.tooltip.ability.restless_frenzy.desc.2",
+                    "fallback": "consecutive strikes",
+                    "italic": false,
+                    "color": "dark_gray"
+                  }
+                ],
+                [
+                  "  ",
+                  {
+                    "translate": "goofy_smp.tooltip.requirement.offhand",
+                    "fallback": "Offhand Requirement: ",
+                    "italic": false,
+                    "color": "gray"
+                  },
+                  {
+                    "translate": "item.minecraft.nether_star",
+                    "fallback": "Nether Star",
+                    "italic": false,
+                    "color": "green"
+                  }
+                ],
+                "",
+                {
+                  "translate": "goofy_smp",
+                  "fallback": "Goofy SMP",
+                  "italic": false,
+                  "bold": true,
+                  "color": "gold"
+                }
+              ]
+            },
+            {
+              "function": "set_name",
+              "name": {
+                "translate": "goofy_smp.item.withering_blade.name",
+                "fallback": "Deathless Decay",
+                "color": "#4f6b79",
+                "italic": false
+              }
+            },
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "goofy_smp:withering_blade_quartz",
+                "custom_data": {
+                  "goofy_smp": {
+                    "item": "withering_blade"
+                  }
+                },
+                "item_name": "{\"translate\": \"goofy_smp.item.withering_blade.name\",\"fallback\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
