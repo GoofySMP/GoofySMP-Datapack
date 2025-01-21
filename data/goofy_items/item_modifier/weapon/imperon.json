@@ -10,7 +10,28 @@
   {
     "function": "set_components",
     "components": {
-      "item_model": "goofy_smp:imperon"
+      "item_model": "goofy_smp:imperon",
+      "item_name": "{\"translate\": \"goofy_smp.item.netherite_imperon\",\"fallback\": \"Netherite Imperon\"}"
     }
+  },
+  {
+    "function": "set_attributes",
+    "replace": false,
+    "modifiers": [
+      {
+        "amount": -0.25,
+        "attribute": "attack_speed",
+        "id": "goofy_items:weapon.imperon",
+        "operation": "add_multiplied_base",
+        "slot": "mainhand"
+      },
+      {
+        "amount": 1,
+        "attribute": "entity_interaction_range",
+        "id": "goofy_items:weapon.imperon",
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
   }
 ]
