@@ -1,0 +1,34 @@
+{
+  "type": "smithing_transform",
+  "addition": "netherite_ingot",
+  "base": "elytra",
+  "template": "netherite_upgrade_smithing_template",
+  "result": {
+    "id": "elytra",
+    "components": {
+      "item_model": "goofy_smp:elytra_netherite",
+      "equippable": {
+        "slot": "chest",
+        "asset_id": "goofy_smp:elytra_netherite",
+        "damage_on_hurt": false,
+        "equip_sound": "item.armor.equip_elytra"
+      },
+      "max_damage": 502,
+      "attribute_modifiers": {
+        "modifiers": [
+          {
+            "amount": -0.1,
+            "id": "goofy_items:equipment.elytra_netherite",
+            "operation": "add_multiplied_base",
+            "type": "movement_speed",
+            "slot": "chest"
+          }
+        ]
+      },
+      "damage_resistant": {
+        "types": "#is_fire"
+      },
+      "item_name": "\"Netherite Elytra\""
+    }
+  }
+}

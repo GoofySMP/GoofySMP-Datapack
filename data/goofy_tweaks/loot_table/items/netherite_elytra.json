@@ -1,0 +1,47 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "elytra",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "goofy_smp:elytra_netherite",
+                "equippable": {
+                  "slot": "chest",
+                  "asset_id": "goofy_smp:elytra_netherite",
+                  "damage_on_hurt": false,
+                  "equip_sound": {
+                    "sound_id": "goofy_smp:item.armor.equip_elytra_netherite"
+                  }
+                },
+                "max_damage": 502,
+                "attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "amount": -0.1,
+                      "id": "goofy_items:equipment.elytra_netherite",
+                      "operation": "add_multiplied_base",
+                      "type": "movement_speed",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "damage_resistant": {
+                  "types": "#is_fire"
+                },
+                "item_name": "{\"translate\": \"goofy_smp.item.elytra_netherite\",\"fallback\": \"Netherite Elytra\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
