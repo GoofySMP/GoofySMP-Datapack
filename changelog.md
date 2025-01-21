@@ -1,3 +1,7 @@
+Jan 21st
+===
+### Bugs
+Fixed [DP #28](https://github.com/GoofySMP/GoofySMP-Datapack/issues/28): Loot tables for CWT sometimes give wrong texture.
 
 Jan 20th
 ===
