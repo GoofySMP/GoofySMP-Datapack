@@ -36,7 +36,7 @@
                   "slot": "mainhand"
                 },
                 {
-                  "amount": 1,
+                  "amount": 0.5,
                   "attribute": "entity_interaction_range",
                   "id": "goofy_items:weapon.imperon",
                   "operation": "add_value",
