@@ -1,5 +1,19 @@
+Jan 25th
+===
+### Changes
+Added backend for new NEIVA, currently unobtainable
+Implimented a couple lines of code to be able easily update broken crossbow textures (#30)
+
+Jan 24th
+===
+### Changes
+Nerfed Imperon attack range to 3.5 blocks
+
 Jan 21st
 ===
+### Changes
+Removed NEIVA
+
 ### Bugs
 Fixed [DP #28](https://github.com/GoofySMP/GoofySMP-Datapack/issues/28): Loot tables for CWT sometimes give wrong texture.
 
