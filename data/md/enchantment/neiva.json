@@ -1,0 +1,46 @@
+{
+  "description": "",
+  "supported_items": "crossbow",
+  "anvil_cost": 0,
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "slots": ["mainhand", "offhand"],
+  "weight": 1,
+  "effects": {
+    "projectile_spawned": [
+      {
+        "effect": {
+          "type": "spawn_particles",
+          "particle": {
+            "type": "angry_villager"
+          },
+          "horizontal_position": {
+            "type": "entity_position"
+          },
+          "vertical_position": {
+            "type": "entity_position"
+          },
+          "horizontal_velocity": {
+            "base": 0,
+            "movement_scale": 1
+          },
+          "vertical_velocity": {
+            "base": 0,
+            "movement_scale": 1
+          }
+        }
+      }
+    ],
+    "crossbow_charge_time": {
+        "type": "minecraft:set",
+        "value": 5
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "predicates": {
+              "custom_data": "{md.item:'neiva'}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.offhand": {
+            "predicates": {
+              "custom_data": "{md.item:'neiva'}"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

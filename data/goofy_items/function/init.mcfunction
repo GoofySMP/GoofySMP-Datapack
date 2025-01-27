@@ -1,3 +1,7 @@
+#> Uthi Packs
+scoreboard objectives add uthipacks.installed dummy
+scoreboard players set #UthiMurderDrones uthipacks.installed 1
+
 #> SCOREBOARDS
 
 #withering blade
