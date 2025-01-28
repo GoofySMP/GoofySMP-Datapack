@@ -130,7 +130,7 @@
                 "custom_data": {
                   "goofy_smp": {
                     "item": "enderblade",
-                    "version": 1
+                    "version": 2
                   }
                 },
                 "consumable": {
@@ -155,6 +155,19 @@
                   "cooldown_group": "goofy_smp:enderblade"
                 },
                 "rarity": "epic"
+              }
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "goofy_items:item/endersbane": 1
+              },
+              "add": false
+            },
+            {
+              "function": "toggle_tooltips",
+              "toggles": {
+                "enchantments": false
               }
             }
           ]

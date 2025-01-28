@@ -126,7 +126,7 @@
                 "custom_data": {
                   "goofy_smp": {
                     "item": "withering_blade",
-                    "version": 1
+                    "version": 2
                   }
                 },
                 "item_name": "{\"translate\": \"goofy_smp.item.withering_blade.name\",\"fallback\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}"
@@ -151,6 +151,19 @@
                   "slot": "mainhand"
                 }
               ]
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {
+                "goofy_items:item/withering_blade": 1
+              },
+              "add": false
+            },
+            {
+              "function": "toggle_tooltips",
+              "toggles": {
+                "enchantments": false
+              }
             }
           ]
         }
