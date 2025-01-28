@@ -10,6 +10,15 @@
           "name": "elytra",
           "functions": [
             {
+              "function": "set_custom_data",
+              "tag": {
+                "goofy_smp": {
+                  "version": 1,
+                  "item": "netherite_elytra"
+                }
+              }
+            },
+            {
               "function": "set_components",
               "components": {
                 "item_model": "goofy_smp:elytra_netherite",

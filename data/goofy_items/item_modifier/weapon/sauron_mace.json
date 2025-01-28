@@ -3,7 +3,8 @@
     "function": "set_custom_data",
     "tag": {
       "goofy_smp": {
-        "texture": true
+        "texture": true,
+        "version": 1
       }
     }
   },

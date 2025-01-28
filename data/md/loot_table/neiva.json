@@ -43,7 +43,13 @@
             },
             {
               "function": "set_custom_data",
-              "tag": "{md.item:'neiva',md.itemStats:['scope']}"
+              "tag": {
+                "md.item": "neiva",
+                "md.itemStats": ["scope"],
+                "goofy_smp": {
+                  "version": 1
+                }
+              }
             },
             {
               "function": "set_enchantments",

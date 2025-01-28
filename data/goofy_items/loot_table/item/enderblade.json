@@ -129,7 +129,8 @@
                 "item_model": "goofy_smp:enderblade",
                 "custom_data": {
                   "goofy_smp": {
-                    "item": "enderblade"
+                    "item": "enderblade",
+                    "version": 1
                   }
                 },
                 "consumable": {
