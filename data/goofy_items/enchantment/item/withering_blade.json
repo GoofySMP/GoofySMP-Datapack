@@ -1,5 +1,10 @@
 {
-    "description": "",
+    "description": {
+        "translate": "enchantment.goofy_smp.forbidden",
+        "fallback": "Forbidden Item",
+        "color": "red",
+        "italic": false
+      },
     "supported_items": "netherite_sword",
     "anvil_cost": 0,
     "max_cost": {

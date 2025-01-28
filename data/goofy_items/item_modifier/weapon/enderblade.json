@@ -153,11 +153,5 @@
       "goofy_items:item/withering_blade": 1
     },
     "add": false
-  },
-  {
-    "function": "toggle_tooltips",
-    "toggles": {
-      "enchantments": false
-    }
   }
 ]

@@ -130,7 +130,7 @@
                 "custom_data": {
                   "goofy_smp": {
                     "item": "enderblade",
-                    "version": 2
+                    "version": 3
                   }
                 },
                 "consumable": {
@@ -163,12 +163,6 @@
                 "goofy_items:item/endersbane": 1
               },
               "add": false
-            },
-            {
-              "function": "toggle_tooltips",
-              "toggles": {
-                "enchantments": false
-              }
             }
           ]
         }
