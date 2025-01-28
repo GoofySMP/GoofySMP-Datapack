@@ -1,21 +1,32 @@
-Jan 25th
+Jan 28th
+===
+## Changes
+- Endersbane and Deathless Decay are now mutually exclusive with the following enchantments:
+    - Vanilla
+        - Fire Aspect
+    - Enchancement
+        - Frostbite
+        - Berserk
+- As a byproduct, both swords now permanently have an enchantment glint.
+
+Jan 27th
 ===
 ### Changes
-Added backend for new NEIVA, currently unobtainable
-Implimented a couple lines of code to be able easily update broken crossbow textures (#30)
+- Added backend for new NEIVA, currently unobtainable
+- Implimented a couple lines of code to be able easily update broken crossbow textures (#30)
 
 Jan 24th
 ===
 ### Changes
-Nerfed Imperon attack range to 3.5 blocks
+- Nerfed Imperon attack range to 3.5 blocks
 
 Jan 21st
 ===
 ### Changes
-Removed NEIVA
+- Removed NEIVA
 
 ### Bugs
-Fixed [DP #28](https://github.com/GoofySMP/GoofySMP-Datapack/issues/28): Loot tables for CWT sometimes give wrong texture.
+- Fixed [DP #28](https://github.com/GoofySMP/GoofySMP-Datapack/issues/28): Loot tables for CWT sometimes give wrong texture.
 
 Jan 20th
 ===
@@ -78,7 +89,7 @@ Obtainable in Ancient Cities and through the creeper method
 - **Jelly Roll - Run It** ([RP #4](https://github.com/GoofySMP/GoofySMP-Resourcepack/issues/4))  
 Obtainable in Desert Temples and through the creeper method
 ### Bugs
-Fixed [RP #1](https://github.com/GoofySMP/GoofySMP-Resourcepack/issues/1): Bonnie Tyler disc uses default texture
+- Fixed [RP #1](https://github.com/GoofySMP/GoofySMP-Resourcepack/issues/1): Bonnie Tyler disc uses default texture
 
 Jan 9th
 ===
@@ -129,7 +140,7 @@ Jan 5th
 Jan 2nd
 ===
 ### Bugs
-Fixed [DP #12](https://github.com/GoofySMP/GoofySMP-Datapack/issues/12): Enderblade doesn't teleport you through Glass Panes 
+- Fixed [DP #12](https://github.com/GoofySMP/GoofySMP-Datapack/issues/12): Enderblade doesn't teleport you through Glass Panes 
 
 Jan 1st
 ===
