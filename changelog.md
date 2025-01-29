@@ -7,8 +7,14 @@ Jan 28th
     - Enchancement
         - Frostbite
         - Berserk
-- As a byproduct, both swords now permanently have an enchantment glint.
+- Endersbane and Deathless Decay now permanently have an enchantment glint.
+- Endersbane and Deathless Decay are now classified as Forbidden Items
+- Deathless Decay now only has a 25% chance to apply it's wither buff
+- Reworked Deathless Decay and Endersbane backend to use an enchantment instead of an advancement when hitting something.
 
+## Bugs
+- Fixed [DP #31](https://github.com/GoofySMP/GoofySMP-Datapack/issues/31): Datapack fails to load on Vanilla Client
+- Fixed [DP #32](https://github.com/GoofySMP/GoofySMP-Datapack/issues/32): Endersbane and Deathless Decay do not show enchantments in their tooltips
 Jan 27th
 ===
 ### Changes

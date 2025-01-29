@@ -1,23 +1,128 @@
 {
-    "description": {
-        "translate": "enchantment.goofy_smp.forbidden",
-        "fallback": "Forbidden Item",
-        "color": "red",
-        "italic": false
+  "description": {
+    "translate": "enchantment.goofy_smp.forbidden",
+    "fallback": "Forbidden Item",
+    "color": "red",
+    "italic": false
+  },
+  "supported_items": "netherite_sword",
+  "anvil_cost": 0,
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "slots": ["mainhand"],
+  "weight": 1,
+  "exclusive_set": "#goofy_items:exclusive_set/item/custom_sword",
+  "effects": {
+    "post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/wither_blade/effect"
+        },
+        "requirements": [
+          {
+            "condition": "random_chance",
+            "chance": 0.25
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#goofy_items:wither_immune"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "goofy_items:technical/kill_wither": true
+                }
+              }
+            }
+          }
+        ]
       },
-    "supported_items": "netherite_sword",
-    "anvil_cost": 0,
-    "max_cost": {
-      "base": 0,
-      "per_level_above_first": 1
-    },
-    "max_level": 1,
-    "min_cost": {
-      "base": 0,
-      "per_level_above_first": 1
-    },
-    "slots": ["mainhand"],
-    "weight": 1,
-    "exclusive_set": "#goofy_items:exclusive_set/item/custom_sword"
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/wither_blade/combo/check"
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "attacker",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "goofy_items:technical/kill_wither": true
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/wither_blade/unworthy"
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "goofy_items:technical/kill_wither": false
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "goofy_items:item/wither_blade/texture_swap"
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "advancements": {
+                  "goofy_items:technical/kill_wither": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
-  
+}

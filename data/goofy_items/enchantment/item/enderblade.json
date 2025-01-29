@@ -1,0 +1,40 @@
+{
+  "description": {
+    "translate": "enchantment.goofy_smp.forbidden",
+    "fallback": "Forbidden Item",
+    "color": "red",
+    "italic": false
+  },
+  "supported_items": "netherite_sword",
+  "anvil_cost": 0,
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "slots": ["mainhand"],
+  "weight": 1,
+  "exclusive_set": "#goofy_items:exclusive_set/item/custom_sword",
+  "effects": {
+    "post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/enderblade/heal"
+        },
+        "requirements": [
+          {
+            "condition": "random_chance",
+            "chance": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

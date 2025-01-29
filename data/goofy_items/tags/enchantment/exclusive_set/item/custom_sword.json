@@ -2,7 +2,7 @@
   "values": [
     "fire_aspect",
     "goofy_items:item/withering_blade",
-    "goofy_items:item/endersbane",
+    "goofy_items:item/enderblade",
     { "id": "enchancement:frostbite", "required": false },
     { "id": "enchancement:berserk", "required": false }
   ]
