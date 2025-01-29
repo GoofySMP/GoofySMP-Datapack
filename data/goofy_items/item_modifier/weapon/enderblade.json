@@ -144,7 +144,8 @@
         "seconds": 5,
         "cooldown_group": "goofy_smp:enderblade"
       },
-      "rarity": "epic"
+      "rarity": "epic",
+      "enchantments": {}
     }
   },
   {
