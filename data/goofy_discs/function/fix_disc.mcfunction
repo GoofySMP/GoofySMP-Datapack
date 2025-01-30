@@ -13,7 +13,7 @@ execute if predicate goofy_discs:disc/meatball_parade_old unless predicate goofy
 execute if predicate goofy_discs:disc/miku_old unless predicate goofy_discs:disc/miku run item modify entity @s weapon.mainhand goofy_discs:fix/miku
 execute if predicate goofy_discs:disc/not_a_slacker_anymore_old unless predicate goofy_discs:disc/not_a_slacker_anymore run item modify entity @s weapon.mainhand goofy_discs:fix/not_a_slacker_anymore
 execute if predicate goofy_discs:disc/notion_old unless predicate goofy_discs:disc/notion run item modify entity @s weapon.mainhand goofy_discs:fix/notion
-execute if predicate goofy_discs:disc/my_time unless predicate goofy_discs:disc/my_time run item modify entity @s weapon.mainhand goofy_discs:fix/my_time
+execute if predicate goofy_discs:disc/my_time_old unless predicate goofy_discs:disc/my_time run item modify entity @s weapon.mainhand goofy_discs:fix/my_time
 execute if predicate goofy_discs:disc/papers_please_theme_old unless predicate goofy_discs:disc/papers_please_theme run item modify entity @s weapon.mainhand goofy_discs:fix/papers_please_theme
 execute if predicate goofy_discs:disc/repairing_good_old unless predicate goofy_discs:disc/repairing_good run item modify entity @s weapon.mainhand goofy_discs:fix/repairing_good
 execute if predicate goofy_discs:disc/sepia_old unless predicate goofy_discs:disc/sepia run item modify entity @s weapon.mainhand goofy_discs:fix/sepia
