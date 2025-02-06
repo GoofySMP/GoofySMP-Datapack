@@ -18,7 +18,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "md:neiva/arm"
+          "function": "md:neiva/check"
         }
       }
     ],

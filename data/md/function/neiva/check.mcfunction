@@ -1,0 +1,1 @@
+execute as @n if entity @s[type=player] run function md:neiva/arm
