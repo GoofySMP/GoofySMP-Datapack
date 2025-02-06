@@ -1,10 +1,23 @@
 Feb  6th
 ===
+### Features
+- Added **Railing** Enchantment
+    - Crossbow enchantment
+    - Mutually exclusive with Multishot and Quick Charge
+    - Obtainable only from the enchantment table (maybe randomly generated books? idk)
+    - Accelerates shot projectiles (not fireworks tho. I couldn't get that to work)
+- Added **Reinforced Arrows**
+    - These arrows are stronger than your average arrow  
+    - Will auto-ignite upon being fired  
+    - Crafted at the crafting table  
+        <img src="https://i.ibb.co/ymbKcJ29/image.png" alt="image" border="0">
+
 ### Changes
 - Changed recipe for Netherite Faceplate
     - It is now 1 netherite helmet & 1 lava bucket
 - Changed recipe for clearing trims
     - You now throw a pair of shears onto the smithing table instead of an axe
+- Tridents from a crafting table will now be classified as Uncommon rather than Rare.
 
 Jan 28th
 ===
