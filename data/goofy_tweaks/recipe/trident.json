@@ -12,7 +12,10 @@
   },
   "result": {
     "id": "minecraft:trident",
-    "count": 1
+    "count": 1,
+    "components": {
+      "rarity": "uncommon"
+    }
   }
 }
   
