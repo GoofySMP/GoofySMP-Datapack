@@ -10,7 +10,7 @@ Feb  6th
     - These arrows are stronger than your average arrow  
     - Will auto-ignite upon being fired  
     - Crafted at the crafting table  
-        ![alt text]("https://i.ibb.co/ymbKcJ29/image.png")
+        <img src="https://i.ibb.co/ymbKcJ29/image.png" alt="image" border="0">
 
 ### Changes
 - Changed recipe for Netherite Faceplate
