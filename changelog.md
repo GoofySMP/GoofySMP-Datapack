@@ -1,3 +1,11 @@
+Feb  6th
+===
+### Changes
+- Changed recipe for Netherite Faceplate
+    - It is now 1 netherite helmet & 1 lava bucket
+- Changed recipe for clearing trims
+    - You now throw a pair of shears onto the smithing table instead of an axe
+
 Jan 28th
 ===
 ## Changes

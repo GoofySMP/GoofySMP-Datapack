@@ -36,12 +36,7 @@ execute as @s[nbt= {Item: {components: {"minecraft:custom_data":{goofy_smp: {tex
 execute as @s[nbt= {Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}] if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:netherite_axe",count:1}},distance=0...5] run function goofy_items:item/textures/clear_texture
 
 #remove trim - Replace with smithing table recipe
-execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:wooden_axe",   count:1}},distance=0...5] run function goofy_items:item/textures/clear_texture
-execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:stone_axe",    count:1}},distance=0...5] run function goofy_items:item/textures/clear_texture
-execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:golden_axe",   count:1}},distance=0...5] run function goofy_items:item/textures/clear_texture
-execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:iron_axe",     count:1}},distance=0...5] run function goofy_items:item/textures/clear_texture
-execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:diamond_axe",  count:1}},distance=0...5] run function goofy_items:item/textures/clear_texture
-execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:netherite_axe",count:1}},distance=0...5] run function goofy_items:item/textures/clear_texture
+execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:shears",count:1}},distance=0...5] run function goofy_items:item/textures/clear_trim
 
 # Archan
 execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
@@ -163,5 +158,5 @@ run function goofy_items:item/textures/jettison
 
 # Netherite Faceplate
 execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
-if entity @n[type=item,nbt={Item:{id:"minecraft:shears",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:lava_bucket",count:1}},distance=0...5] \
 run function goofy_items:item/textures/netherite_faceplate
