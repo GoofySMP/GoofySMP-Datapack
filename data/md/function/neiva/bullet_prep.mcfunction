@@ -1,21 +1,23 @@
-tag @s remove md.this
-
 ##store final values
 #Motion
 scoreboard players operation @s md.bulletX = #c2 md.bulletX
 scoreboard players operation @s md.bulletY = #c2 md.bulletY
 scoreboard players operation @s md.bulletZ = #c2 md.bulletZ
-tellraw @a[tag=md.dev] "Bullet: Motion retrieved"
+tellraw @a[tag=gf.dev] "Bullet: Motion retrieved"
+tellraw @a[tag=gf.dev] {"nbt": "Motion","entity": "@s"}
+
 #Position
 execute store result entity @s Pos[0] double 0.00001 run scoreboard players get #X md.rayOutput
 execute store result entity @s Pos[1] double 0.00001 run scoreboard players get #Y md.rayOutput
 execute store result entity @s Pos[2] double 0.00001 run scoreboard players get #Z md.rayOutput
-execute run tellraw @a[tag=md.dev] "Bullet: Position retrieved"
+execute run tellraw @a[tag=gf.dev] "Bullet: Position retrieved"
+tellraw @a[tag=gf.dev] {"nbt": "Pos","entity": "@s"}
+
 #Rotation
 execute store result entity @s Rotation[0] float 0.00001 run scoreboard players get #Pitch md.rayOutput
 execute store result entity @s Rotation[1] float 0.00001 run scoreboard players get #Yaw md.rayOutput
-tellraw @a[tag=md.dev] "Bullet: Rotation retrieved"
-
+tellraw @a[tag=gf.dev] "Bullet: Rotation retrieved"
+tellraw @a[tag=gf.dev] {"nbt": "Rotation","entity": "@s"}
 
 #reset scoreboards (performance i think)
 scoreboard players reset #c1 md.bulletX

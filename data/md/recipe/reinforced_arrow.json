@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:netherite_ingot",
+    "X": "minecraft:flint",
+    "Y": "minecraft:feather"
+  },
+  "pattern": ["X", "#", "Y"],
+  "result": {
+    "count": 4,
+    "id": "minecraft:arrow",
+    "components": {
+      "custom_data": {
+        "murdro": {
+          "reinforced": true
+        }
+      },
+      "item_name": "{\"fallback\":\"Reinforced Arrow\",\"translate\": \"item.md.reinforced_arrow\"}",
+      "damage_resistant": {
+        "types": "#minecraft:is_fire"
+      },
+      "rarity": "uncommon",
+      "minecraft:item_model": "md:reinforced_arrow"
+    }
+  }
+}

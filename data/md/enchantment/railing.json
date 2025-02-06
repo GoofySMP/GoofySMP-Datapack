@@ -1,0 +1,40 @@
+{
+  "description": "Railing",
+  "supported_items": "#enchantable/crossbow",
+  "anvil_cost": 10,
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": ["mainhand", "offhand"],
+  "weight": 1,
+  "effects": {
+    "projectile_spawned": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "md:neiva/arm"
+        }
+      }
+    ],
+    "item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 20
+        }
+      }
+    ],
+    "crossbow_charge_time": {
+      "type": "set",
+      "value": 2.5
+    }
+  },
+  "exclusive_set": "#md:exclusive_set/railing",
+  "primary_items": "crossbow"
+}

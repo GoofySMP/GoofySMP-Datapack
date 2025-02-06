@@ -1,0 +1,39 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "arrow",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_name": "{\"fallback\":\"Reinforced Arrow\",\"translate\": \"item.md.reinforced_arrow\"}",
+                "damage_resistant": {
+                  "types": "#minecraft:is_fire"
+                },
+                "rarity": "uncommon",
+                "minecraft:item_model": "md:reinforced_arrow"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "murdro": {
+                  "reinforced": true
+                }
+              }
+            },
+            {
+                "function": "set_count",
+                "count": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

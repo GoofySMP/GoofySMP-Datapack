@@ -1,0 +1,10 @@
+{
+    "values": [
+      "quick_charge",
+      "multishot",
+      { "id": "enchancement:brimstone", "required": false },
+      { "id": "enchancement:scatter", "required": false },
+      { "id": "enchancement:torch", "required": false }
+    ]
+  }
+  

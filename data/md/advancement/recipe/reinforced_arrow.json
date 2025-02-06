@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "recipe": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "md:reinforced_arrow"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+        "md:reinforced_arrow"
+    ]
+  }
+}
