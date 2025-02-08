@@ -29,7 +29,7 @@ scoreboard players reset #c2 md.bulletZ
 scoreboard players reset * md.rayOutput
 
 #adding power to arrow
-data modify entity @s crit set value 1b
+data modify entity @s crit set value 0b
 data modify entity @s damage set value 3
 
 #making rocket detonate in short time, regardless of flight duration
