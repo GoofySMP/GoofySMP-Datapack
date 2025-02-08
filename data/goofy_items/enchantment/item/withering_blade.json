@@ -121,21 +121,7 @@
         "effect": {
           "type": "minecraft:run_function",
           "function": "goofy_items:item/wither_blade/texture_swap"
-        },
-        "requirements": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "type_specific": {
-                "type": "player",
-                "advancements": {
-                  "goofy_items:technical/kill_wither": true
-                }
-              }
-            }
-          }
-        ]
+        }
       }
     ]
   }
