@@ -25,6 +25,18 @@ if entity @n[type=item,nbt={Item:{id:"minecraft:glowstone_dust",count:1}},distan
 if entity @n[type=item,nbt={Item:{id:"minecraft:blaze_powder",count:1}},distance=0...5] \
 run function goofy_items:item/wither_blade/craft
 
+# Withering Imperon
+execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1,components:{"minecraft:item_model":"goofy_smp:imperon"}}}] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:wither_rose",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:wither_skeleton_skull",count:1,}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:soul_sand",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:gold_block",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:nether_wart",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:sugar",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:glowstone_dust",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:blaze_powder",count:1}},distance=0...5] \
+run function goofy_items:item/wither_blade/craft_imperon
+
 ##Retexturing
 
 # remove texture
@@ -160,3 +172,15 @@ run function goofy_items:item/textures/jettison
 execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
 if entity @n[type=item,nbt={Item:{id:"minecraft:lava_bucket",count:1}},distance=0...5] \
 run function goofy_items:item/textures/netherite_faceplate
+
+# Imperon Deathless Decay
+execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{"goofy_smp": {"item": "withering_blade",}}}}}] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:netherite_scrap",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:stick",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/withering_blade_imperon
+
+# Quartz Deathless Decay
+execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{"goofy_smp": {"item": "withering_blade",}}}}}] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:quartz",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:obsidian",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/withering_blade_quartz
