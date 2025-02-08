@@ -89,7 +89,7 @@
         "requirements": [
           {
             "condition": "minecraft:entity_properties",
-            "entity": "this",
+            "entity": "attacker",
             "predicate": {
               "type_specific": {
                 "type": "player",
