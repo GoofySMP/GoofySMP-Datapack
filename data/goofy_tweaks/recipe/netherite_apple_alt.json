@@ -2,14 +2,14 @@
   "type": "crafting_shaped",
   "group": "goofy_tweaks:netherite_apple",
   "pattern": [
-    "nDn",
-    "GAG",
-    "nNn"
+    "gDg",
+    "NAN",
+    "gGg"
     ],
   "key": {
     "G": ["minecraft:gold_block"],
     "D": ["minecraft:diamond"],
-    "n": ["minecraft:netherite_scrap"],
+    "g": ["minecraft:gold_ingot"],
     "N": ["minecraft:netherite_ingot"],
 
     "A": ["minecraft:golden_apple"]
