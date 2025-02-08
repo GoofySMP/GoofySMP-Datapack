@@ -1,7 +1,7 @@
 #kill all ingredient minus root (that's this entity)
 kill @n[type=item,nbt={Item:{id:"minecraft:netherite_ingot",count:1}},distance=0...5]
 kill @n[type=item,nbt={Item:{id:"minecraft:end_crystal",count:2}},distance=0...5]
-kill @n[type=item,predicate=goofy_items:misc/mending_book,nbt={Item:{id:"minecraft:enchanted_book",count:1}},distance=0...5]
+kill @n[type=item,nbt={Item:{id:"minecraft:enchanting_table",count:1}},distance=0...5]
 kill @n[type=item,nbt={Item:{id:"minecraft:ender_pearl",count:1}},distance=0...5]
 kill @n[type=item,nbt={Item:{id:"minecraft:experience_bottle",count:1}},distance=0...5]
 kill @n[type=item,nbt={Item:{id:"minecraft:turtle_scute",count:1}},distance=0...5]
