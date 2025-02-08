@@ -3,12 +3,12 @@
   "category": "equipment",
   "key": {
     "#": "minecraft:blaze_rod",
-    "X": "minecraft:netherite_ingot",
+    "X": "minecraft:netherite_scrap",
     "Y": "minecraft:feather"
   },
   "pattern": ["X", "#", "Y"],
   "result": {
-    "count": 16,
+    "count": 4,
     "id": "minecraft:arrow",
     "components": {
       "custom_data": {
