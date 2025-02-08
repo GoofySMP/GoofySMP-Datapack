@@ -1,0 +1,48 @@
+{
+  "type": "smithing_transform",
+  "addition": "netherite_ingot",
+  "base": "diamond_horse_armor",
+  "template": "netherite_upgrade_smithing_template",
+  "result": {
+    "id": "music_disc_blocks",
+    "components": {
+      "item_model": "goofy_smp:netherite_horse_armor",
+      "equippable": {
+        "slot": "body",
+        "asset_id": "netherite",
+        "equip_sound": "entity.horse.armor"
+      },
+      "max_damage": 502,
+      "attribute_modifiers": {
+        "modifiers": [
+          {
+            "amount": 15,
+            "id": "goofy_items:equipment.netherite_horse_armor",
+            "operation": "add_value",
+            "type": "armor",
+            "slot": "body"
+          },
+          {
+            "amount": 4,
+            "id": "goofy_items:equipment.netherite_horse_armor",
+            "operation": "add_value",
+            "type": "armor_toughness",
+            "slot": "body"
+          }
+        ]
+      },
+      "damage_resistant": {
+        "types": "#is_fire"
+      },
+      "item_name": "{\"translate\": \"goofy_smp.item.netherite_horse_armor\",\"fallback\": \"Netherite Horse Armor\"}",
+      "custom_data": {
+        "goofy_smp": {
+          "version": 1,
+          "item": "netherite_horse_armor"
+        }
+      },
+      "!jukebox_playable": {},
+      "rarity": "common"
+    }
+  }
+}

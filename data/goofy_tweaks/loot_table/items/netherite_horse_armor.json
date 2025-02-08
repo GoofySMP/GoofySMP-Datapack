@@ -1,0 +1,63 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+
+          "name": "music_disc_blocks",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "item_model": "goofy_smp:netherite_horse_armor",
+                "equippable": {
+                  "slot": "body",
+                  "asset_id": "netherite",
+                  "equip_sound": "entity.horse.armor"
+                },
+                "max_damage": 502,
+                "attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "amount": 15,
+                      "id": "goofy_items:equipment.netherite_horse_armor",
+                      "operation": "add_value",
+                      "type": "armor",
+                      "slot": "body"
+                    },
+                    {
+                      "amount": 4,
+                      "id": "goofy_items:equipment.netherite_horse_armor",
+                      "operation": "add_value",
+                      "type": "armor_toughness",
+                      "slot": "body"
+                    }
+                  ]
+                },
+                "damage_resistant": {
+                  "types": "#is_fire"
+                },
+                "item_name": "{\"translate\": \"goofy_smp.item.netherite_horse_armor\",\"fallback\": \"Netherite Horse Armor\"}",
+                "!jukebox_playable": {},
+                "rarity": "common"
+              }
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "goofy_smp": {
+                  "version": 1,
+                  "item": "netherite_horse_armor"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
