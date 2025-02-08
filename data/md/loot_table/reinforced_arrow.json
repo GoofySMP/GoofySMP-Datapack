@@ -6,12 +6,18 @@
       "entries": [
         {
           "type": "item",
-          "name": "arrow",
+          "name": "tipped_arrow",
           "functions": [
             {
               "function": "set_components",
               "components": {
                 "item_name": "{\"fallback\":\"Reinforced Arrow\",\"translate\": \"item.md.reinforced_arrow\"}",
+                "custom_name": "{\"fallback\":\"Reinforced Arrow\",\"translate\": \"item.md.reinforced_arrow\",\"italic\": false}",
+                "potion_contents": {
+                  "custom_name": "reinforced",
+                  "custom_color": 2236962
+                },
+                "hide_additional_tooltip": {},
                 "damage_resistant": {
                   "types": "#minecraft:is_fire"
                 },
@@ -28,8 +34,8 @@
               }
             },
             {
-                "function": "set_count",
-                "count": 4
+              "function": "set_count",
+              "count": 4
             }
           ]
         }
