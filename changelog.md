@@ -1,4 +1,36 @@
-Feb  6th
+Feb 8th
+===
+### Features
+- Added two variants of the Deathless Decay
+    - **Quartz**:
+        - Crafted with
+            - 1 Deathless Decay
+            - 1 quartz
+            - 1 obsidian
+        - No additional power-ups
+    - **Imperon**:
+        - Crafted with
+            - 1 Deathless Decay
+            - 1 netherite scrap
+            - 1 stick
+        - Can also be directly crafted with the same recipe as the regular Deathless Decay, just with an imperon instead of a Netherite Sword
+        - Has all the base stats of a regular imperon
+        - Has all the abilities of the Deathless Decay
+    - These textures cannot be removed as it currently stands. This will be ammended in a future update
+### Changes
+- Deathless Decay (and it's variants) now have a special texture whenever you have an active combo. Active combo being one that is over 5 hits.
+
+Feb 7th
+===
+### Changes
+- Deathless Decay now only effects mobs. Sorry armour stands.
+- Modified the Endersbane model format to easier allow for variants in the future. If your Endersbane turns into a black and magenta square, just hold it in your main hand. It will automatically correct itself.
+- Made reinforced arrows cheaper. You now get 16 arrows from the recipe ( was 4)
+- Added alternate recipe for reinforced arrows. I'm too lazy to get a screenshot, just check the recipe book.
+### Bugs
+- Fixed [DP #37](https://github.com/GoofySMP/GoofySMP-Datapack/issues/37): Deathless Decay withers user if striking a player that isn't worthy of the blade
+
+Feb 6th
 ===
 ### Features
 - Added **Railing** Enchantment
