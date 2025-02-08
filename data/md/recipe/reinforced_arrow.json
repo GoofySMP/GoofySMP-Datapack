@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
+  "group": "md:reinforced_arrow",
   "key": {
     "#": "minecraft:blaze_rod",
     "X": "minecraft:netherite_ingot",

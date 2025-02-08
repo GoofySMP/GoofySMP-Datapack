@@ -8,6 +8,7 @@ title @p actionbar "Your arrow wasn't stong enough"
 
 #recipe jazz
 execute unless entity @p[advancements={md:recipe/reinforced_arrow=true}] run recipe take @s md:reinforced_arrow
+execute unless entity @p[advancements={md:recipe/reinforced_arrow=true}] run recipe take @s md:reinforced_arrow_alt
 advancement grant @p only md:recipe/reinforced_arrow
 
 #end arrow

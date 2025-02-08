@@ -1,12 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
+  "group": "md:reinforced_arrow",
   "key": {
     "#": "minecraft:blaze_rod",
     "X": "minecraft:netherite_scrap",
+    "G": "minecraft:gold_ingot",
     "Y": "minecraft:feather"
   },
-  "pattern": ["X", "#", "Y"],
+  "pattern": [
+    "X G", 
+    " # ", 
+    " Y "
+  ],
   "result": {
     "count": 4,
     "id": "minecraft:arrow",
