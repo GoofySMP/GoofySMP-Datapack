@@ -1,7 +1,9 @@
 {
   "function": "set_components",
   "components": {
-    "item_model": "goofy_smp:enderblade_useable",
+    "custom_model_data":{
+      "floats": [1.0]
+    },
     "consumable": {
       "animation": "bow",
       "consume_seconds": 1,
