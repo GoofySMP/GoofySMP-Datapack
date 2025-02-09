@@ -1,6 +1,6 @@
-#> Uthi Packs
+#universal scoreboards
 scoreboard objectives add uthipacks.installed dummy
-scoreboard players set #UthiMurderDrones uthipacks.installed 1
+scoreboard players set GoofySMPCore uthipacks.installed 1
 
 #> SCOREBOARDS
 

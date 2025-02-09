@@ -15,6 +15,11 @@
       "custom_data": {
         "murdro": {
           "reinforced": true
+        },
+        "uthi": {
+          "arrow_data": {
+            "Fire": 2000
+          }
         }
       },
       "item_name": "{\"fallback\":\"Reinforced Arrow\",\"translate\": \"item.md.reinforced_arrow\"}",

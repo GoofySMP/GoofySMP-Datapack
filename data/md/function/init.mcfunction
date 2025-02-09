@@ -1,6 +1,6 @@
 #universal scoreboards
 scoreboard objectives add uthipacks.installed dummy
-scoreboard players set #UthiMurderDrones uthipacks.installed 1
+scoreboard players set MurderDrones uthipacks.installed 1
 
 #Config + Defaults
 scoreboard objectives add md.config dummy
