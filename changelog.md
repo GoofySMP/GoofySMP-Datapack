@@ -17,8 +17,17 @@ Feb 8th
         - Has all the base stats of a regular imperon
         - Has all the abilities of the Deathless Decay
     - These textures cannot be removed as it currently stands. This will be ammended in a future update
+- Added Netherite Horse Armour
+    - Crafted by upgrading Diamond Horse Armour in a smithing table
+    - Increased armour & armour toughness stats
+    - Immune to fire/lava
+- Added an alternate recipe for Netherite Apples that doesn't use Netherite Scrap
 ### Changes
 - Deathless Decay (and it's variants) now have a special texture whenever you have an active combo. Active combo being one that is over 5 hits.
+- Tweaked the Endersbane recipe to use an Enchantment Table instead of an enchanted book with Mending ([DP #35](https://github.com/GoofySMP/GoofySMP-Datapack/issues/35))
+
+### Bugs
+- Fixed [DP #38](https://github.com/GoofySMP/GoofySMP-Datapack/issues/38) Reinforced Arrows aren't consumed by bows with Infinity
 
 Feb 7th
 ===
