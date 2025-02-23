@@ -1,0 +1,2 @@
+$execute as @n[type=#uthi:mobs,nbt={UUID:$(Owner)}] if entity @s[type=player] run tag @s add md.shotSource
+tellraw @a[tag=gf.dev] ["Identified [",{"selector":"@n[tag=md.shotSource]"},"] as source for Railing"]

@@ -1,4 +1,3 @@
-execute as @n[type=#uthi:mobs] if entity @s[type=player] run tag @s add md.shotSource
-tellraw @a[tag=gf.dev] ["Identified [",{"selector":"@n[tag=md.shotSource]"},"] as source for Railing"]
+function md:neiva/get_owner with entity @s
 
 execute if entity @n[tag=md.shotSource] run function md:neiva/arm
