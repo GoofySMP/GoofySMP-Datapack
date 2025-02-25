@@ -1,4 +1,4 @@
-tellraw @a[tag=gf.dev] [{"text": "Bullet: Tick for ["},{"selector": "@s"},{"text":"]"}]
+tellraw @a[tag=uthi.dev] [{"text": "Bullet: Tick for ["},{"selector": "@s"},{"text":"]"}]
 
 
 execute store result entity @s Motion[0] double .03 run scoreboard players get @s md.bulletX

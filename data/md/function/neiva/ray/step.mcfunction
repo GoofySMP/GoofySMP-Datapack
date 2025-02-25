@@ -1,13 +1,13 @@
 #from ../ray
 
 #debug particles
-execute if score @s md.raySteps matches ..391 run particle dust{color:[1,0,1],scale:2} ~ ~ ~ 0.0 0.0 0.0 0 1 force @a[tag=gf.dev]
+execute if score @s md.raySteps matches ..391 run particle dust{color:[1,0,1],scale:2} ~ ~ ~ 0.0 0.0 0.0 0 1 force @a[tag=uthi.dev]
 
 #effects
-execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^0.25 ^ ^ 0 0 0 0 1 force @a[tag=!gf.dev]
-execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^ ^0.25 ^ 0 0 0 0 1 force @a[tag=!gf.dev]
-execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^ ^-0.25 ^ 0 0 0 0 1 force @a[tag=!gf.dev]
-execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^-0.25 ^ ^ 0 0 0 0 1 force @a[tag=!gf.dev]
+execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^0.25 ^ ^ 0 0 0 0 1 force @a[tag=!uthi.dev]
+execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^ ^0.25 ^ 0 0 0 0 1 force @a[tag=!uthi.dev]
+execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^ ^-0.25 ^ 0 0 0 0 1 force @a[tag=!uthi.dev]
+execute if predicate md:50 run particle dust{color:[0.5,0.5,0.5],scale:1} ^-0.25 ^ ^ 0 0 0 0 1 force @a[tag=!uthi.dev]
 execute if predicate md:02 run function md:effect/neiva/sound_ring/1
 
 

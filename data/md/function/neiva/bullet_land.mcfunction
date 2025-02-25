@@ -4,4 +4,4 @@ scoreboard players reset @s md.bulletY
 scoreboard players reset @s md.bulletZ
 scoreboard players reset @s md.bulletTime
 
-tellraw @a[tag=gf.dev] "Bullet: Reached end of path"
+tellraw @a[tag=uthi.dev] "Bullet: Reached end of path"

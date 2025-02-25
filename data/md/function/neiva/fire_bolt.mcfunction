@@ -1,5 +1,5 @@
 #dev
-tellraw @a[tag=gf.dev] "Bolt sufficent"
+tellraw @a[tag=uthi.dev] "Bolt sufficent"
 
 #cast ray
 function md:neiva/ray/cast
