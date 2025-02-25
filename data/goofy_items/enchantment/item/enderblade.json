@@ -16,7 +16,7 @@
     "base": 0,
     "per_level_above_first": 1
   },
-  "slots": ["mainhand"],
+  "slots": ["mainhand", "offhand"],
   "weight": 1,
   "exclusive_set": "#goofy_items:exclusive_set/item/custom_sword",
   "effects": {
@@ -32,8 +32,63 @@
           {
             "condition": "random_chance",
             "chance": 0.5
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#uthi:mobs"
+            }
           }
         ]
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/enderblade/check_useable"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": ["goofy_items:item/enderblade"]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/enderblade/check_useable_off"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": ["goofy_items:item/enderblade"]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
       }
     ]
   }

@@ -16,7 +16,7 @@
     "base": 0,
     "per_level_above_first": 1
   },
-  "slots": ["mainhand"],
+  "slots": ["mainhand","offhand"],
   "weight": 1,
   "exclusive_set": "#goofy_items:exclusive_set/item/custom_sword",
   "effects": {

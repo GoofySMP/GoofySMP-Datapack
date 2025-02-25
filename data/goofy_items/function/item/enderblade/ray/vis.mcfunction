@@ -1,0 +1,1 @@
+execute if predicate goofy_items:chance/50 run particle portal ~ ~1 ~ .1 .2 .1 .1 5 force

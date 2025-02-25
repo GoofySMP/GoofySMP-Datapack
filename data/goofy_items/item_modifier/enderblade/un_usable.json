@@ -1,7 +1,11 @@
 {
   "function": "set_components",
   "components": {
-    "!custom_model_data":{},
-    "!consumable": {}
+    "!custom_model_data": {},
+    "!consumable": {},
+    "use_cooldown": {
+      "seconds": 0.01,
+      "cooldown_group": "goofy_smp:enderblade"
+    }
   }
 }

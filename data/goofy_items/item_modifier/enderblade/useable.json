@@ -1,7 +1,7 @@
 {
   "function": "set_components",
   "components": {
-    "custom_model_data":{
+    "custom_model_data": {
       "floats": [1.0]
     },
     "consumable": {
@@ -19,6 +19,10 @@
           }
         }
       ]
+    },
+    "use_cooldown": {
+      "seconds": 5,
+      "cooldown_group": "goofy_smp:enderblade"
     }
   }
 }

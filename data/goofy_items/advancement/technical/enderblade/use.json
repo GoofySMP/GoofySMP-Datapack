@@ -5,11 +5,11 @@
       "conditions": {
         "item": {
           "predicates": {
-            "custom_data": {
-              "goofy_smp": {
-                "item": "enderblade"
+            "enchantments": [
+              {
+                "enchantments": ["goofy_items:item/enderblade"]
               }
-            }
+            ]
           }
         }
       }

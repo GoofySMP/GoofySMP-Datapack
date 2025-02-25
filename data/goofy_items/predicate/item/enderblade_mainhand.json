@@ -5,10 +5,15 @@
     "equipment": {
       "mainhand": {
         "predicates": {
-          "custom_data": {
-            "goofy_smp": {
-              "item": "enderblade"
+          "enchantments": [
+            {
+              "enchantments": ["goofy_items:item/enderblade"]
             }
+          ]
+        },
+        "components": {
+          "custom_model_data": {
+            "floats": [1.0]
           }
         }
       }

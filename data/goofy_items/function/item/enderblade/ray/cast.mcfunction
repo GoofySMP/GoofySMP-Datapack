@@ -1,26 +1,12 @@
-#> I ripped this code from Echoes. Have fun >o3
-# creating the ray
-tellraw @a[tag=gf.dev] "Ray: Created"
-tag @s add gf.shotSource
-summon area_effect_cloud ~ ~ ~ {Duration:1, Tags:[gf.teleport_ray]}
+# From function:item/enderblade/use
 
-# angling the ray to match player's eyes and orientation
-execute anchored eyes as @s run tp @e[tag=gf.teleport_ray,limit=1,sort=nearest] ^ ^ ^ ~ ~
+$function uthi:utils/raycast_block/cast {\
+    skipped_blocks:"#goofy_items:teleport_permeable", \
+    action_blocks:"#uthi:empty", \
+    ray_steps:$(enderblade_warp_distance), \
+    step_size:.25, \
+    action_function: "uthi:empty", \
+    step_function:"goofy_items:item/enderblade/ray/vis", \
+    end_function:"goofy_items:item/enderblade/ray/end"}
 
-#debug
-tellraw @a[tag=gf.dev] "\nRay: Initial Coordinates"
-tellraw @a[tag=gf.dev] ["  x: ",{"nbt": "Pos[0]","entity": "@e[tag=gf.teleport_ray,limit=1,sort=nearest]"}]
-tellraw @a[tag=gf.dev] ["  y: ",{"nbt": "Pos[1]","entity": "@e[tag=gf.teleport_ray,limit=1,sort=nearest]"}]
-tellraw @a[tag=gf.dev] ["  z: ",{"nbt": "Pos[2]","entity": "@e[tag=gf.teleport_ray,limit=1,sort=nearest]"}]
-tellraw @a[tag=gf.dev] ["  pit: ",{"nbt": "Rotation[0]","entity": "@e[tag=gf.teleport_ray,limit=1,sort=nearest]"}]
-tellraw @a[tag=gf.dev] ["  yaw: ",{"nbt": "Rotation[1]","entity": "@e[tag=gf.teleport_ray,limit=1,sort=nearest]"}]
-tellraw @a[tag=gf.dev] "\nRay: Player Coordinates (for reference)"
-tellraw @a[tag=gf.dev] ["  x: ",{"nbt": "Pos[0]","entity": "@s"}]
-tellraw @a[tag=gf.dev] ["  y: ",{"nbt": "Pos[1]","entity": "@s"}]
-tellraw @a[tag=gf.dev] ["  z: ",{"nbt": "Pos[2]","entity": "@s"}]
-tellraw @a[tag=gf.dev] ["  pit: ",{"nbt": "Rotation[0]","entity": "@s"}]
-tellraw @a[tag=gf.dev] ["  yaw: ",{"nbt": "Rotation[1]","entity": "@s"}]
-
-#starting movement
-execute as @e[tag=gf.teleport_ray,limit=1,sort=nearest] run function goofy_items:item/enderblade/ray/ray
-tag @s remove gf.shotSource
+#function uthi:utils/raycast_block/cast {skipped_blocks:"#goofy_items:teleport_permeable",action_blocks:"uthi:empty",ray_steps:120,step_size:.25,action_function:"uthi:empty",step_function:"goofy_items:item/enderblade/ray/vis",end_function:"goofy_items:item/enderblade/ray/end"}
