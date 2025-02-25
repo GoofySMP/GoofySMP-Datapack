@@ -1,8 +1,8 @@
 #from ../ray
 
 #check for blocks
-$execute if score #ray uthi.raycastSteps matches 0.. unless block ~ ~ ~ $(skipped_blocks) run tellraw @a[tag=uthi.dev] "Ray: Found unskipped Block"
-$execute if score #ray uthi.raycastSteps matches 0.. unless block ~ ~ ~ $(skipped_blocks) run function uthi:utils/raycast_block/pre_end with storage uthi:temp raycast_data
+$execute if score #ray uthi.raycastSteps matches 0.. unless block ~ ~ ~ $(skipped_blocks) unless block ~ ~ ~ $(action_blocks) run tellraw @a[tag=uthi.dev] "Ray: Found unskipped Block"
+$execute if score #ray uthi.raycastSteps matches 0.. unless block ~ ~ ~ $(skipped_blocks) unless block ~ ~ ~ $(action_blocks) run function uthi:utils/raycast_block/pre_end with storage uthi:temp raycast_data
 
 $execute if score #ray uthi.raycastSteps matches 0.. if block ~ ~ ~ $(action_blocks) run tellraw @a[tag=uthi.dev] "Ray: Found Action Block"
 $execute if score #ray uthi.raycastSteps matches 0.. if block ~ ~ ~ $(action_blocks) run function $(action_function)
