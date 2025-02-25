@@ -15,8 +15,8 @@ execute if predicate md:02 run function md:effect/neiva/sound_ring/1
 function md:neiva/grab_mot/grab_motion
 
 #check for blocks or guys
-execute if score @s md.raySteps matches ..399 unless block ~ ~ ~ #uthi:ray_permeable unless block ~ ~ ~ #uthi:ray_breakable run function md:neiva/ray/pre_end {end:0}
-execute if score @s md.raySteps matches ..399 if block ~ ~ ~ #uthi:ray_breakable run fill ~ ~ ~ ~ ~ ~ air destroy
+execute if score @s md.raySteps matches ..399 unless block ~ ~ ~ #uthi:ray_permeable unless block ~ ~ ~ #uthi:glass run function md:neiva/ray/pre_end {end:0}
+execute if score @s md.raySteps matches ..399 if block ~ ~ ~ #uthi:glass run fill ~ ~ ~ ~ ~ ~ air destroy
 execute if score @s md.raySteps matches ..399 positioned ~-.5 ~-.5 ~-.5 if score @s md.raySteps matches ..399 if entity @e[type=#uthi:ray_contact,tag=!md.shotSource,dx=1] run function md:neiva/ray/pre_end {end:1}
 
 #actually moves the ray
