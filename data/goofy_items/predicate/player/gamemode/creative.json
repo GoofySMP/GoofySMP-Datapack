@@ -4,9 +4,7 @@
   "predicate": {
     "type_specific": {
       "type": "player",
-      "level": {
-        "min": 2
-      }
+      "gamemode": ["creative"]
     }
   }
 }
