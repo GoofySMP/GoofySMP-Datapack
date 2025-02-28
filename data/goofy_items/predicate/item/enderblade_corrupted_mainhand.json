@@ -1,0 +1,22 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "predicates": {
+          "enchantments": [
+            {
+              "enchantments": ["goofy_items:item/enderblade_corrupted"]
+            }
+          ]
+        },
+        "components": {
+          "custom_model_data": {
+            "floats": [1.0]
+          }
+        }
+      }
+    }
+  }
+}

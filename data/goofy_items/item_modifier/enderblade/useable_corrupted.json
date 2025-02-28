@@ -1,0 +1,28 @@
+{
+  "function": "set_components",
+  "components": {
+    "custom_model_data": {
+      "floats": [1.0]
+    },
+    "consumable": {
+      "animation": "bow",
+      "consume_seconds": 2,
+      "has_consume_particles": false,
+      "sound": {
+        "sound_id": "goofy_smp:item.enderblade_corrupted.charge"
+      },
+      "on_consume_effects": [
+        {
+          "type": "play_sound",
+          "sound": {
+            "sound_id": "goofy_smp:item.enderblade_corrupted.warp"
+          }
+        }
+      ]
+    },
+    "use_cooldown": {
+      "seconds": 0.30,
+      "cooldown_group": "goofy_smp:enderblade"
+    }
+  }
+}

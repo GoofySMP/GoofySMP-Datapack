@@ -14,7 +14,8 @@ scoreboard objectives add gf.ray_steps dummy
 
 #> default configs
 scoreboard objectives add gf.config dummy
-function .cmd:z_change_value/defaults
+execute unless data storage goofy_smp:config reset_config_no_reload: run function .cmd:z_toggle/reset_config_on_reload {toggle: 1}
+execute unless data storage goofy_smp:config {reset_config_no_reload:1} run function .cmd:z_change_value/defaults
 
 #> timers
 function goofy_items:clocks/10t

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "enchantments": [
+              {
+                "enchantments": ["goofy_items:item/enderblade_corrupted"]
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:item/enderblade_corrupted/use"
+  }
+}

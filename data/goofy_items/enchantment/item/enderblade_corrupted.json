@@ -1,0 +1,95 @@
+{
+  "description": {
+    "translate": "enchantment.goofy_smp.cursed",
+    "fallback": "Cursed Item",
+    "color": "red",
+    "italic": false
+  },
+  "supported_items": "netherite_sword",
+  "anvil_cost": 0,
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 1
+  },
+  "slots": ["mainhand","offhand"],
+  "weight": 1,
+  "exclusive_set": "#goofy_items:exclusive_set/item/custom_sword",
+  "effects": {
+    "post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/enderblade/heal"
+        },
+        "requirements": [
+          {
+            "condition": "random_chance",
+            "chance": 0.5
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#uthi:mobs"
+            }
+          }
+        ]
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/enderblade_corrupted/check_useable"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": ["goofy_items:item/enderblade_corrupted"]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "goofy_items:item/enderblade_corrupted/check_useable_off"
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "predicates": {
+                  "enchantments": [
+                    {
+                      "enchantments": ["goofy_items:item/enderblade_corrupted"]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
