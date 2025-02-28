@@ -1,0 +1,21 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "feet": {
+          "predicates": {
+            "custom_data": {
+              "goofy_smp": {
+                "item_properties": {
+                  "does_trim_cycle": 1,
+                  "cycling": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

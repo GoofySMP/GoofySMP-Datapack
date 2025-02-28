@@ -1,0 +1,12 @@
+{
+  "function": "set_custom_data",
+  "tag": {
+    "goofy_smp": {
+      "item_properties": {
+        "does_trim_cycle": 1,
+        "cycling": 1
+      },
+      "version": 1
+    }
+  }
+}

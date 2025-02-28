@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "take_damage_from_mob": {
+      "trigger": "player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:item/cycle/check"
+  }
+}

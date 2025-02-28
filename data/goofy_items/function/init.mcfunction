@@ -12,6 +12,9 @@ scoreboard objectives add gf.combo_ref dummy
 #enderblade
 scoreboard objectives add gf.ray_steps dummy
 
+#trim cycling
+scoreboard objectives add gf.cycle_tag dummy
+
 #> default configs
 scoreboard objectives add gf.config dummy
 execute unless data storage goofy_smp:config reset_config_no_reload: run function .cmd:z_toggle/reset_config_on_reload {toggle: 1}

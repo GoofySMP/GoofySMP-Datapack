@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "take_damage_from_mob": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "#uthi:mobs"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:item/cycle/check"
+  }
+}

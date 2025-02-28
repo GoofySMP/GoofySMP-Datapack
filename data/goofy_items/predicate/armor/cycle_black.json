@@ -1,0 +1,21 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "goofy_items:armor/cycle/head_black"
+    },
+    {
+      "condition": "reference",
+      "name": "goofy_items:armor/cycle/chest_black"
+    },
+    {
+      "condition": "reference",
+      "name": "goofy_items:armor/cycle/legs_black"
+    },
+    {
+      "condition": "reference",
+      "name": "goofy_items:armor/cycle/feet_black"
+    }
+  ]
+}
