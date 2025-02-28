@@ -8,3 +8,4 @@ execute if predicate goofy_items:armor/cycle/legs_red as @n[tag=gf.spare_slot,di
 execute if predicate goofy_items:armor/cycle/feet_red as @n[tag=gf.spare_slot,distance=...01] run function goofy_items:item/cycle/cycle_black {slot:feet}
 
 tag @s remove gf.this
+kill @n[tag=gf.spare_slot,distance=...01]

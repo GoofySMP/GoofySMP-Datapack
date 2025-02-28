@@ -1,15 +1,36 @@
 {
-    "condition": "entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "chest": {
-          "predicates": {
-            "custom_data": {
-              "goofy_smp": {
-                "item_properties": {
-                  "does_trim_cycle": 1,
-                  "cycling": 1
+  "condition": "all_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "chest": {
+            "predicates": {
+              "custom_data": {
+                "goofy_smp": {
+                  "item_properties": {
+                    "does_trim_cycle": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "inverted",
+      "term": {
+        "condition": "entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "chest": {
+              "predicates": {
+                "trim": {
+                  "material": "minecraft:netherite"
                 }
               }
             }
@@ -17,5 +38,5 @@
         }
       }
     }
-  }
-  
+  ]
+}
