@@ -1,0 +1,1 @@
+item modify entity @s weapon.offhand goofy_items:cmd/1
