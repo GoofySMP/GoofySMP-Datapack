@@ -3,6 +3,7 @@
     "fire_aspect",
     "goofy_items:item/withering_blade",
     "goofy_items:item/enderblade",
+    "goofy_items:item/enderblade_corrupted",
     { "id": "enchancement:frostbite", "required": false },
     { "id": "enchancement:berserk", "required": false }
   ]
