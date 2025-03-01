@@ -21,7 +21,7 @@
       ]
     },
     "use_cooldown": {
-      "seconds": 0.30,
+      "seconds": 30,
       "cooldown_group": "goofy_smp:enderblade"
     }
   }
