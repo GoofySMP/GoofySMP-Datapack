@@ -16,7 +16,7 @@
     "base": 0,
     "per_level_above_first": 1
   },
-  "slots": ["mainhand","offhand"],
+  "slots": ["mainhand", "offhand"],
   "weight": 1,
   "exclusive_set": "#goofy_items:exclusive_set/item/custom_sword",
   "effects": {
@@ -29,6 +29,12 @@
           "function": "goofy_items:item/wither_blade/effect"
         },
         "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
           {
             "condition": "random_chance",
             "chance": 0.25
@@ -73,6 +79,12 @@
         },
         "requirements": [
           {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
+          {
             "condition": "minecraft:entity_properties",
             "entity": "attacker",
             "predicate": {
@@ -101,6 +113,12 @@
           "function": "goofy_items:item/wither_blade/unworthy"
         },
         "requirements": [
+          {
+            "condition": "minecraft:damage_source_properties",
+            "predicate": {
+              "is_direct": true
+            }
+          },
           {
             "condition": "minecraft:entity_properties",
             "entity": "attacker",
