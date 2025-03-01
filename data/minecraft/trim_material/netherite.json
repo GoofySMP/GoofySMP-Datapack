@@ -7,6 +7,7 @@
     "ingredient": "minecraft:netherite_ingot",
     "override_armor_assets": {
       "minecraft:netherite": "netherite_darker",
-      "goofy_smp:netherite_faceplate": "netherite_darker"
+      "goofy_smp:netherite_faceplate": "netherite_darker",
+      "goofy_smp:v1": "netherite_darker"
     }
   }
