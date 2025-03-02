@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "location": {
+    "new_scale": {
       "trigger": "location"
     }
   },
