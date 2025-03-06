@@ -6,7 +6,7 @@
     },
     "consumable": {
       "animation": "bow",
-      "consume_seconds": 2,
+      "consume_seconds": 1.5,
       "has_consume_particles": false,
       "sound": {
         "sound_id": "goofy_smp:item.enderblade_corrupted.charge"
