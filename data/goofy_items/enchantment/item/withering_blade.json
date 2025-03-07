@@ -5,7 +5,7 @@
     "color": "red",
     "italic": false
   },
-  "supported_items": "air",
+  "supported_items": "#enchantable/sword",
   "anvil_cost": 0,
   "max_cost": {
     "base": 0,
