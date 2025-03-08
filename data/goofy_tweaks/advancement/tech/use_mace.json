@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "use_mace": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "player"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "mace_smash"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_tweaks:mace_damage"
+  }
+}
