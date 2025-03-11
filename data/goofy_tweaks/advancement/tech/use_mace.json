@@ -6,12 +6,21 @@
         "entity": {
           "type": "player"
         },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "mace"
+            }
+          }
+        },
         "damage": {
+          "blocked": false,
           "type": {
+            "is_direct": true,
             "tags": [
               {
                 "expected": true,
-                "id": "mace_smash"
+                "id": "uthi:is_melee"
               }
             ]
           }
