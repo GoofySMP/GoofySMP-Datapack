@@ -1,0 +1,24 @@
+[
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "goofy_smp": {
+        "texture": true,
+        "version": 1
+      }
+    }
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "equippable": {
+        "slot": "head",
+        "damage_on_hurt": true,
+        "equip_sound": "item.armor.equip_wolf",
+        "dispensable": true,
+        "swappable": true
+      },
+      "item_model": "goofy_smp:creepy_mask_saturated"
+    }
+  }
+]

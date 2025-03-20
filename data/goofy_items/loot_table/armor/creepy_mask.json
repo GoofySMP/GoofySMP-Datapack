@@ -23,7 +23,7 @@
                 "equippable": {
                   "slot": "head",
                   "damage_on_hurt": true,
-                  "equip_sound": "item.armor.equip_netherite",
+                  "equip_sound": "item.armor.equip_wolf",
                   "dispensable": true,
                   "swappable": true
                 },

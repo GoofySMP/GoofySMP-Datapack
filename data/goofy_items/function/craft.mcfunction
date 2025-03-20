@@ -50,6 +50,9 @@ execute as @s[nbt= {Item: {components: {"minecraft:custom_data":{goofy_smp: {tex
 #remove trim - Replace with smithing table recipe
 execute if data entity @s Item.components."minecraft:trim" if entity @n[type=item, nbt= !{Item: {components: {"minecraft:custom_data":{goofy_smp: {texture: 1b}}}}}, nbt={Item:{id:"minecraft:shears",count:1}},distance=0...5] run function goofy_items:item/textures/clear_trim
 
+
+##CWT
+
 # Archan
 execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
 if entity @n[type=item,nbt={Item:{id:"minecraft:iron_ingot",count:1}},distance=0...5] \
@@ -168,11 +171,6 @@ if entity @n[type=item,nbt={Item:{id:"minecraft:diamond",count:1}},distance=0...
 if entity @n[type=item,nbt={Item:{id:"minecraft:gold_block",count:1,}},distance=0...5] \
 run function goofy_items:item/textures/jettison
 
-# Netherite Faceplate
-execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
-if entity @n[type=item,nbt={Item:{id:"minecraft:lava_bucket",count:1}},distance=0...5] \
-run function goofy_items:item/textures/netherite_faceplate
-
 # Imperon Deathless Decay
 execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{"goofy_smp": {"item": "withering_blade",}}}}}] \
 if entity @n[type=item,nbt={Item:{id:"minecraft:netherite_scrap",count:1}},distance=0...5] \
@@ -190,6 +188,26 @@ execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1}}] unless dat
 if entity @n[type=item,nbt={Item:{id:"minecraft:quartz",count:1}},distance=0...5] \
 if entity @n[type=item,nbt={Item:{id:"minecraft:obsidian",count:1,}},distance=0...5] \
 run function goofy_items:item/textures/quartz_blade
+
+
+##CAT
+
+# Netherite Faceplate
+execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
+if entity @n[type=item,nbt={Item:{id:"minecraft:lava_bucket",count:1}},distance=0...5] \
+run function goofy_items:item/textures/netherite_faceplate
+
+# Creepy Mask
+execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
+if entity @n[type=item,nbt={Item:{id:"minecraft:gold_ingot",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:goat_horn",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/creepy_mask
+
+# Creepy Mask Saturated
+execute as @s[nbt= {Item: {id: "minecraft:netherite_helmet",count:1,components:{"minecraft:item_model":"goofy_smp:creepy_mask"}}}] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:copper_ingot",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:red_dye",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/creepy_mask_saturated
 
 # Cycling Armour
 #execute as @s[nbt= {Item: {count:1}},predicate=goofy_items:misc/trimed_armor] unless data entity @s Item.components."minecraft:custom_data".goofy_smp.item_properties{does_trim_cycle:true} \
