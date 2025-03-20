@@ -5,11 +5,13 @@
     "equipment": {
       "mainhand": {
         "predicates": {
-          "custom_data": {
-            "goofy_smp": {
-              "item": "withering_blade"
+          "enchantments": [
+            {
+              "enchantments": [
+                "goofy_items:item/withering_blade"
+              ]
             }
-          }
+          ]
         }
       }
     }
