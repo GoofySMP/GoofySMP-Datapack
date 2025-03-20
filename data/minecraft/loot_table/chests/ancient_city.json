@@ -157,7 +157,7 @@
             "functions": [
               {
                 "function": "minecraft:enchant_randomly",
-                "options": "minecraft:swift_sneak"
+                "options": "#minecraft:swift_sneak"
               }
             ],
             "name": "minecraft:book",

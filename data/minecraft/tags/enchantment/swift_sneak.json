@@ -1,0 +1,17 @@
+{
+    "values": [
+        "swift_sneak",
+        {
+            "id": "enchancement:strafe",
+            "required": false
+        },
+        {
+            "id": "enchancement:slide",
+            "required": false
+        },
+        {
+            "id": "enchancement:gale",
+            "required": false
+        }
+    ]
+}
