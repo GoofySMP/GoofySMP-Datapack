@@ -10,6 +10,11 @@ execute if predicate goofy_items:item/fix/16_5/withering_blade run function goof
 # Enderblade
 execute if predicate goofy_items:item/fix/21_5/enderblade unless predicate goofy_items:item/version/5 run function goofy_items:item/fix {item: enderblade}
 
+execute if predicate goofy_items:item/fix/21_5/withering_blade unless predicate goofy_items:item/version/4 run function goofy_items:item/fix {item: withering_blade}
+execute if predicate goofy_items:item/fix/21_5/withering_blade_obsidian unless predicate goofy_items:item/version/4 run function goofy_items:item/fix {item: withering_blade_obsidian}
+execute if predicate goofy_items:item/fix/21_5/withering_blade_quartz run function goofy_items:item/fix {item: withering_blade_obsidian}
+execute if predicate goofy_items:item/fix/21_5/withering_imperon unless predicate goofy_items:item/version/4 run function goofy_items:item/fix {item: withering_imperon}
+
 ##CWT
 #> 1.16.5 FORMAT
 # Archan

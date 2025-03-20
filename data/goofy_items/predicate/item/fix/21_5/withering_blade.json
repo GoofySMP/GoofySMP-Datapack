@@ -1,0 +1,20 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "item_model": "goofy_smp:withering_blade"
+        },
+        "predicates": {
+          "custom_data": {
+            "goofy_smp": {
+              "item": "withering_blade"
+            }
+          }
+        }
+      }
+    }
+  }
+}

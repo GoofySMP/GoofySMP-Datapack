@@ -179,11 +179,17 @@ if entity @n[type=item,nbt={Item:{id:"minecraft:netherite_scrap",count:1}},dista
 if entity @n[type=item,nbt={Item:{id:"minecraft:stick",count:1,}},distance=0...5] \
 run function goofy_items:item/textures/withering_blade_imperon
 
-# Quartz Deathless Decay
+# Imperon Deathless Decay
 execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1,components:{"minecraft:custom_data":{"goofy_smp": {"item": "withering_blade",}}}}}] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:obsidian",count:1}},distance=0...5] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:crying_obsidian",count:1,}},distance=0...5] \
+run function goofy_items:item/textures/withering_blade_obsidian
+
+# Quartz Blade
+execute as @s[nbt= {Item: {id: "minecraft:netherite_sword",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
 if entity @n[type=item,nbt={Item:{id:"minecraft:quartz",count:1}},distance=0...5] \
 if entity @n[type=item,nbt={Item:{id:"minecraft:obsidian",count:1,}},distance=0...5] \
-run function goofy_items:item/textures/withering_blade_quartz
+run function goofy_items:item/textures/quartz_blade
 
 # Cycling Armour
 #execute as @s[nbt= {Item: {count:1}},predicate=goofy_items:misc/trimed_armor] unless data entity @s Item.components."minecraft:custom_data".goofy_smp.item_properties{does_trim_cycle:true} \

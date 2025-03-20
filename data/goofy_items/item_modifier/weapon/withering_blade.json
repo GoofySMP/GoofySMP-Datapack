@@ -116,7 +116,7 @@
       "custom_data": {
         "goofy_smp": {
           "item": "withering_blade",
-          "version": 3
+          "version": 4
         }
       },
       "item_name": "{\"translate\": \"goofy_smp.item.withering_blade.name\",\"fallback\": \"Deathless Decay\",\"color\": \"#4f6b79\",\"italic\": false}",
