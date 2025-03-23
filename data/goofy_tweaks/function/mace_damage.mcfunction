@@ -6,4 +6,4 @@ summon donkey ~ ~ ~ {CustomName:"\"Almighty Donkey of Power (who really hates ma
     ArmorItems:[{id:"minecraft:wheat_seeds",components:{enchantments:{levels:{"uthi:delete_user":1}}}},{},{},{}],\
     active_effects:[{id:"invisibility",ambient:true,duration:-1,amplifier:0,show_icon:false,show_particles:false}],\
     attributes:[{id:"scale",base:0.1}]}
-damage @s 15 goofy_tweaks:no_mace by @n[tag=gf.donkey_of_power]
+damage @s 1500 goofy_tweaks:no_mace by @n[tag=gf.donkey_of_power]
