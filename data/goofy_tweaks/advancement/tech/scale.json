@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "new_scale": {
+    "scale_limbo": {
       "trigger": "location"
     }
   },

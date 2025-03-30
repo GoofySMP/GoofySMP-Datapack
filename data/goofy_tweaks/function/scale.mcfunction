@@ -1,5 +1,5 @@
 # Uthimentius
-attribute @s[nbt={UUID:[I;-134117548,-1671413414,-1444312058,-314466715]}] scale base set 1.1
+attribute @s[nbt={UUID:[I;-134117548,-1671413414,-1444312058,-314466715]}] scale base set 1.0
 # Falsonix
 attribute @s[nbt={UUID:[I;134592366,-2063052828,-1156056820,-379946840]}] scale base set 1.0
 # GPI
