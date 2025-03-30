@@ -30,7 +30,7 @@ scoreboard players reset * md.rayOutput
 
 #adding power to arrow
 data modify entity @s crit set value 0b
-data modify entity @s damage set value 3
+data modify entity @s damage set value 1
 
 #making rocket detonate in short time, regardless of flight duration
 data modify entity @s LifeTime set value 15
