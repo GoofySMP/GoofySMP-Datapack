@@ -1,5 +1,5 @@
 {
-  "description": "Railing",
+  "description": "Acceleration",
   "supported_items": "#enchantable/crossbow",
   "anvil_cost": 10,
   "max_cost": {

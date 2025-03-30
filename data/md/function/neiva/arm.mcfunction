@@ -8,8 +8,7 @@ execute as @p at @s anchored eyes run function md:effect/neiva/sound_ring/begini
 execute as @p at @s anchored eyes run function md:dev/cast_particles
 
 #check if reinforced
-execute if predicate md:reinforced_projectile run function md:neiva/fire_bolt
-execute unless predicate md:reinforced_projectile run function md:neiva/break_bolt
+function md:neiva/fire_bolt
 
 #remove identifier
 tag @p remove md.shotSource
