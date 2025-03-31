@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "multiplex": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "custom_data": {
+                "incendium": {
+                  "item": "warping_witherblade"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_tweaks:clear_illegal_items"
+  }
+}
