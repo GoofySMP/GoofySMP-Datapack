@@ -1,0 +1,30 @@
+{
+  "type": "block_column",
+  "config": {
+    "direction": "up",
+    "layers": [
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "polished_blackstone_wall"
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "torch"
+          }
+        }
+      }
+    ],
+    "allowed_placement": {
+      "type": "true"
+    },
+    "prioritize_tip": false
+  }
+}

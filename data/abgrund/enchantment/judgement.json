@@ -1,0 +1,63 @@
+{
+  "description": {
+    "translate": "enchantment.abgrund.judgement",
+    "fallback": "Judgement"
+  },
+  "supported_items": "#axes",
+  "anvil_cost": 10,
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "slots": ["mainhand"],
+  "weight": 1,
+  "effects": {
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "add",
+          "value": 1
+        }
+      }
+    ],
+    "tick": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "abgrund:judgement/active"
+        }
+      }
+    ],
+    "minecraft:damage": [
+      {
+        "effect": {
+          "type": "add",
+          "value": 5
+        },
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[\"abg.condemned\"]}"
+          }
+        }
+      }
+    ],
+    "post_attack": [
+      {
+        "affected": "victim",
+        "enchanted": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "abgrund:judgement/hit"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#abgrund:exclusive_set/judgement"
+}

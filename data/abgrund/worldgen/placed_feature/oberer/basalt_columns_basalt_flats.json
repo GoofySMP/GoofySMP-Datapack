@@ -1,0 +1,16 @@
+{
+  "feature": "abgrund:oberer/basalt_columns_basalt_flats",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

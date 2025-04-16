@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": "abgrund:oberer/dripstone_spikes/3",
+        "features": [
+            {
+                "feature": "abgrund:oberer/dripstone_spikes/1",
+                "chance": 0.1
+            },
+            {
+                "feature": "abgrund:oberer/dripstone_spikes/2",
+                "chance": 0.2
+            },
+            {
+                "feature": "abgrund:oberer/dripstone_spikes/3",
+                "chance": 0.3
+            },
+            {
+                "feature": "abgrund:oberer/dripstone_spikes/4",
+                "chance": 0.2
+            },
+            {
+                "feature": "abgrund:oberer/dripstone_spikes/5_6",
+                "chance": 0.1
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:selector",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "abgrund:chests/abyss_haus/junk"
+        },
+        {
+          "type": "loot_table",
+          "value": "abgrund:chests/abyss_haus/supply"
+        },
+        {
+          "type": "loot_table",
+          "value": "abgrund:chests/abyss_haus/map"
+        }
+      ]
+    }
+  ]
+}

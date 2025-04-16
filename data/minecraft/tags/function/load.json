@@ -1,3 +1,11 @@
 {
-  "values": ["goofy_discs:init", "goofy_items:init","md:init","uthi:init"]
+  "values": [
+    "goofy_discs:init",
+    "goofy_items:init",
+    "md:init",
+    "uthi:init",
+    "animated_java:global/on_load",
+    "animated_java:global/internal/gu/load",
+    "abgrund:init"
+  ]
 }

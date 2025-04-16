@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "he_dead": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "nbt": "{UUID:[I;-134117548,-1671413414,-1444312058,-314466715]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "goofy_items:player/uthi_is_banished"
+  }
+}

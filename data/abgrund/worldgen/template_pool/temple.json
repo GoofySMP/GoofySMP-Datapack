@@ -1,0 +1,15 @@
+{
+  "name": "abgrund:temple",
+  "fallback": "empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/base",
+        "processors": "abgrund:temple_base"
+      },
+      "weight": 1
+    }
+  ]
+}

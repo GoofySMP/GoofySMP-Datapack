@@ -1,0 +1,130 @@
+{
+  "carvers": [
+    "abgrund:cave",
+    "abgrund:canyon",
+    "abgrund:cave_extra_underground",
+    "abgrund:cave_large"
+  ],
+  "downfall": 0.3,
+  "temperature": 1,
+  "has_precipitation": false,
+  "effects": {
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "abgrund:music.limbo.unfactored_barrens"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 1,
+    "fog_color": 9605778,
+    "sky_color": 16777215,
+    "water_color": 1912146,
+    "water_fog_color": 8750469,
+    "grass_color": 8816262,
+    "foliage_color": 6381921,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.118093334
+    }
+  },
+  "features": [
+    [],
+    ["abgrund:oberer/amethyst_geode"],
+    [],
+    [],
+    [
+      "abgrund:oberer/lava_delta_unfactored_barrens",
+      "abgrund:oberer/basalt_columns_unfactored_barrens"
+    ],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_tuff",
+      "abgrund:ore_coal_upper",
+      "abgrund:ore_coal_lower",
+      "abgrund:ore_iron_upper",
+      "abgrund:ore_iron_middle",
+      "abgrund:ore_iron_small",
+      "abgrund:ore_gold",
+      "abgrund:ore_gold_lower",
+      "abgrund:ore_redstone",
+      "abgrund:ore_redstone_lower",
+      "abgrund:ore_diamond",
+      "abgrund:ore_diamond_medium",
+      "abgrund:ore_diamond_large",
+      "abgrund:ore_diamond_buried",
+      "abgrund:ore_lapis",
+      "abgrund:ore_lapis_buried",
+      "abgrund:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "abgrund:ore_crying_obsidian",
+      "abgrund:oberer/ore_basalt",
+      "abgrund:oberer/ore_blackstone"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "abgrund:oberer/pine_tree_unfactored_barrens",
+      "abgrund:senken/patch_dead_bush",
+      "abgrund:oberer/patch_dead_coral_unfactored_barrens"
+    ],
+    []
+  ],
+  "spawn_costs": {
+    "phantom": {
+      "charge": 2,
+      "energy_budget": 0.17
+    },
+    "enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "zombie": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "enderman",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  }
+}

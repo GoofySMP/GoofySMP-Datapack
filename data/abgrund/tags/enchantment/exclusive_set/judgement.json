@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#exclusive_set/damage",
+    {
+      "id": "enchancement:beheading",
+      "required": false
+    }
+  ]
+}

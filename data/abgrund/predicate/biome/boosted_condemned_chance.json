@@ -1,0 +1,10 @@
+{
+  "condition": "location_check",
+  "predicate": {
+    "biomes": [
+      "abgrund:cursed_valley",
+      "soul_sand_valley",
+      "deep_dark"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "feature": "warped_fungus",
+  "placement": [
+    {
+      "type": "count",
+      "count": 3
+    },
+    {
+      "type": "in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "biome"
+    }
+  ]
+}

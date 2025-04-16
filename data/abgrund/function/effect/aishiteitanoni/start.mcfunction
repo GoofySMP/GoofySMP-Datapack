@@ -1,0 +1,2 @@
+particle dust{color:0,scale:3} ~ ~1 ~ 0.25 0.5 0.25 0 100 force
+$execute positioned ~ ~0.25 ~ rotated 0 0 run function animated_java:aishiteitanoni/summon {args:{animation:'$(animation)',start_animation:1b}}

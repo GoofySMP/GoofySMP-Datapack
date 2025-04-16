@@ -1,0 +1,69 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "music_disc_11",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "item_name": "{\"translate\":\"item.abgrund.essence_of_abgrund\",\"fallback\":\"Essence Of Abgrund\"}",
+                "rarity": "rare",
+                "consumable": {
+                  "animation": "spear",
+                  "consume_seconds": 5,
+                  "has_consume_particles": false,
+                  "sound": "event.mob_effect.bad_omen",
+                  "on_consume_effects": [
+                    {
+                      "type": "play_sound",
+                      "sound": "item.ominous_bottle.dispose"
+                    }
+                  ]
+                },
+                "item_model": "ominous_bottle",
+                "max_stack_size": 16
+              }
+            },
+            {
+              "function": "set_lore",
+              "mode": "replace_all",
+              "lore": [
+                {
+                  "text": "Use to transport in and out of Limbo",
+                  "color": "#2899a8",
+                  "italic": false
+                },
+                "",
+                {
+                  "text": "Abgrund",
+                  "color": "#707070"
+                }
+              ]
+            },
+            {
+              "function": "set_custom_data",
+              "tag": {
+                "abgrund": {
+                  "item": "essence_of_abgrund"
+                }
+              }
+            },
+            {
+              "function": "set_custom_model_data",
+              "floats": {
+                "mode": "replace_all",
+                "values": [4864770]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

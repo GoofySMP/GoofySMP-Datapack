@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use_essence": {
+      "trigger": "consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "abgrund": {
+                "item": "essence_of_abgrund"
+              }
+            }
+          },
+          "items": ["music_disc_11"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "abgrund:item/essence_of_abgrund/use"
+  }
+}

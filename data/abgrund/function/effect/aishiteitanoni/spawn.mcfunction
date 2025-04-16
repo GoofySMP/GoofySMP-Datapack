@@ -1,0 +1,1 @@
+execute if predicate abgrund:dimension/overworld run weather thunder 12000

@@ -1,0 +1,21 @@
+{
+  "values": [
+    "abgrund:abyss_wastes",
+    "abgrund:abyss_barrens",
+    "abgrund:basalt_flats",
+    "abgrund:bluecap_forest",
+    "abgrund:cursed_valley",
+    "abgrund:dead_forest",
+    "abgrund:dead_valley",
+    "abgrund:dripstone_desert",
+    "abgrund:grenzen",
+    "abgrund:jardin",
+    "abgrund:sable_garden",
+    "abgrund:sable_plains",
+    "abgrund:unfactored_barrens",
+
+    "minecraft:deep_dark",
+    "minecraft:warped_forest",
+    "minecraft:the_end"
+  ]
+}

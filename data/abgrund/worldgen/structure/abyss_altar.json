@@ -1,0 +1,16 @@
+{
+  "type": "jigsaw",
+  "biomes": "#abgrund:has_structure/abyss_remnant",
+  "step": "surface_structures",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+
+  "start_pool": "abgrund:abyss_altar",
+  "size": 2,
+  "max_distance_from_center": 20,
+  "start_height": {
+    "absolute": 1
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "use_expansion_hack": false
+}

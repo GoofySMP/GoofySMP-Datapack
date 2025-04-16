@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "diamond_axe",
+      "components": {
+        "custom_model_data": {
+          "floats": [4860005]
+        }
+      }
+    },
+    "description": "Serve Judgement to 200 Condemned",
+    "title": "Judge, Jury, and Executioner",
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "200_condemned": {
+      "trigger": "impossible"
+    }
+  },
+  "parent": "abgrund:judgement"
+}

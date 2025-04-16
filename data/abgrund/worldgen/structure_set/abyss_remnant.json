@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "salt": 90612484,
+    "type": "minecraft:random_spread",
+    "separation": 8,
+    "spacing": 20,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "abgrund:abyss_altar",
+      "weight": 3
+    },
+    {
+        "structure": "abgrund:abyss_haus",
+        "weight": 1
+    }
+  ]
+}

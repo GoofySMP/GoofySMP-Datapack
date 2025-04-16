@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "salt": 90612484,
+    "type": "minecraft:random_spread",
+    "separation": 50,
+    "spacing": 75,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "abgrund:temple",
+      "weight": 1
+    }
+  ]
+}

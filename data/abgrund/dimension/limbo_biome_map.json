@@ -1,0 +1,492 @@
+{
+  "type": "abgrund:limbo_biome_map",
+  "generator": {
+    "settings": "abgrund:limbo_biome_map",
+    "type": "minecraft:noise",
+    "biome_source": {
+      "biomes": [
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-2, -1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [-2, -1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-2, -1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [-2, -1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [-2, -1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [-2, -1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+        
+
+
+
+
+        {
+          "biome": "abgrund:tech/safe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-1, -0.35],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [-1, -0.35],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/safe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-1, -0.35],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [-1, -0.35],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [-1, -0.35],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/safe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [-1, -0.35],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+        
+
+
+
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-0.35, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [-0.35, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [-0.35, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [-0.35, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [-0.35, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [-0.35, 0.05],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [0.05, 0.7],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [0.7, 1.1],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [-1, 0],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.7,-0.3],
+            "humidity": [0, 1],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [-1, 0],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [-0.3, 0.3],
+            "humidity": [0, 1],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [-1, 0],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abgrund:tech/unsafe",
+          "parameters": {
+            "temperature": [0.3, 0.7],
+            "humidity": [0, 1],
+            "continentalness": [1.1, 2],
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ],
+      "type": "minecraft:multi_noise"
+    }
+  }
+}

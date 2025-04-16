@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "crying_obsidian",
+      "components": {
+        "custom_model_data": {
+          "floats": [4860001]
+        }
+      }
+    },
+    "description": "Find the boundary of the Abyss",
+    "title": "Only one way to go",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "grenzen": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:grenzen"
+          }
+        }
+      }
+    }
+  },
+  "parent": "abgrund:root"
+}

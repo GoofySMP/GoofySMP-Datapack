@@ -1,0 +1,24 @@
+{
+  "feature": "large_basalt_columns",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 10
+    },
+    {
+      "type": "height_range",
+      "height": {
+        "type": "uniform",
+        "max_inclusive": {
+          "absolute": 299
+        },
+        "min_inclusive": {
+          "absolute": 235
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "polished_blackstone_bricks",
+      "components": {
+        "custom_model_data": {
+          "floats": [4860002]
+        }
+      }
+    },
+    "description": "Stumble upon the scattered remnants of civilization",
+    "title": "There were people here?",
+    "announce_to_chat": true,
+    "frame": "task",
+    "hidden": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "remnant": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": ["abgrund:abyss_altar", "abgrund:abyss_haus"]
+          }
+        }
+      }
+    }
+  },
+  "parent": "abgrund:root"
+}

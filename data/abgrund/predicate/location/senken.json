@@ -1,0 +1,14 @@
+{
+    "condition": "location_check",
+    "predicate": {
+      "biomes": [
+        "abgrund:abyss_barrens",
+        "abgrund:abyss_wastes",
+        "abgrund:cursed_valley",
+        "abgrund:dead_forest",
+        "abgrund:dead_valley",
+        "abgrund:grenzen"
+      ]
+    }
+  }
+  

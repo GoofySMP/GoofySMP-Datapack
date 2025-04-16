@@ -172,6 +172,11 @@
           "type": "loot_table",
           "weight": 1,
           "value": "goofy_discs:discs/verses_extended"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/bosnia"
         }
       ],
       "rolls": 1

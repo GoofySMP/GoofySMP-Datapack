@@ -1,0 +1,89 @@
+{
+  "type": "entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "enchanted_golden_apple",
+          "quality": 10,
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "golden_apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "quality": 3,
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "gold_block",
+          "quality": 2,
+          "weight": 30
+        },
+        {
+          "type": "item",
+          "name": "diamond",
+          "quality": 4,
+          "weight": 20
+        },
+        {
+          "type": "item",
+          "name": "quartz",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "quality": 3,
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "quality": 2,
+          "weight": 50
+        },
+        {
+          "type": "item",
+          "name": "magma_cream",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ],
+          "quality": 1,
+          "weight": 50
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

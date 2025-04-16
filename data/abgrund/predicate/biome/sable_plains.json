@@ -1,0 +1,6 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "biomes": "abgrund:sable_plains"
+    }
+}

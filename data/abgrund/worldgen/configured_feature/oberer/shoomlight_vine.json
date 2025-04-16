@@ -1,0 +1,34 @@
+{
+  "type": "block_column",
+  "config": {
+    "direction": "up",
+    "layers": [
+      {
+        "height": {
+          "type": "uniform",
+          "max_inclusive": 7,
+          "min_inclusive": 1
+        },
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "twisting_vines_plant"
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "simple_state_provider",
+          "state": {
+            "Name": "shroomlight"
+          }
+        }
+      }
+    ],
+    "allowed_placement": {
+      "type": "true"
+    },
+    "prioritize_tip": false
+  }
+}

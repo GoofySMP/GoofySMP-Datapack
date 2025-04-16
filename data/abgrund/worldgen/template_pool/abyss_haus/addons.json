@@ -1,0 +1,15 @@
+{
+  "name": "abgrund:abyss_haus/addons",
+  "fallback": "empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:abyss_haus/addons/farm_1",
+        "processors": "abgrund:farm_senken"
+      },
+      "weight": 10
+    }
+  ]
+}

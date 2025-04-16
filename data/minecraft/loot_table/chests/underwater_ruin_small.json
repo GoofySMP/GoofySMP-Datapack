@@ -90,6 +90,11 @@
           "value": "goofy_discs:discs/dubidubidu"
         },
         {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "value": "goofy_discs:discs/bosnia"
+        },
+        {
           "type": "minecraft:item",
           "functions": [
             {

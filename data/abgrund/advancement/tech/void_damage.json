@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "void_damage": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "abgrund:banishes",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "abgrund:mechanics/banish/check_death"
+  }
+}

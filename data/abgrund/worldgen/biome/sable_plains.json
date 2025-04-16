@@ -1,0 +1,127 @@
+{
+  "carvers": [
+    "abgrund:cave",
+    "abgrund:canyon",
+    "abgrund:cave_extra_underground",
+    "abgrund:cave_large"
+  ],
+  "downfall": 0.8,
+  "effects": {
+    "fog_color": 4079926,
+    "foliage_color": 8883574,
+    "grass_color": 10990752,
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "abgrund:music.limbo.sable_plains"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.0,
+    "sky_color": 7829367,
+    "water_color": 1912146,
+    "water_fog_color": 5597568
+  },
+  "features": [
+    [],
+    ["minecraft:lake_lava_underground", "minecraft:lake_lava_surface"],
+    ["abgrund:oberer/amethyst_geode", "abgrund:oberer/blackstone_rock"],
+    [],
+    ["abgrund:oberer/torch_post"],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_tuff",
+      "abgrund:ore_coal_upper",
+      "abgrund:ore_coal_lower",
+      "abgrund:ore_iron_upper",
+      "abgrund:ore_iron_middle",
+      "abgrund:ore_iron_small",
+      "abgrund:ore_gold",
+      "abgrund:ore_gold_lower",
+      "abgrund:ore_redstone",
+      "abgrund:ore_redstone_lower",
+      "abgrund:ore_diamond",
+      "abgrund:ore_diamond_medium",
+      "abgrund:ore_diamond_large",
+      "abgrund:ore_diamond_buried",
+      "abgrund:ore_lapis",
+      "abgrund:ore_lapis_buried",
+      "abgrund:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [],
+    ["minecraft:spring_water", "minecraft:spring_lava"],
+    [
+      "minecraft:glow_lichen",
+      "abgrund:oberer/pale_oak_sable_plains",
+      "abgrund:oberer/pale_moss_patch",
+      "abgrund:oberer/pale_moss_patch_big",
+      "minecraft:pale_garden_flowers",
+      "minecraft:flower_pale_garden",
+      "abgrund:oberer/patch_grass_sable_plains",
+      "abgrund:oberer/patch_tall_grass_sable_plains"
+    ],
+    []
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {
+    "skeleton": {
+      "charge": 1.7,
+      "energy_budget": 0.15
+    },
+    "wither_skeleton": {
+      "charge": 1.7,
+      "energy_budget": 0.15
+    },
+    "phantom": {
+      "charge": 2,
+      "energy_budget": 0.17
+    },
+    "zombie": {
+      "charge": 2,
+      "energy_budget": 0.17
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "zombie",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:phantom",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 1
+}

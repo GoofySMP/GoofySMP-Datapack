@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:player_head",
+      "components": {
+        "minecraft:profile": {
+          "id": [1714027991, -1694609499, -1714084615, -872870967],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzk3NDMwMzA4MmI1NjRiM2RhNDY1MjkwY2E3Zjg1Y2M1NDNmYjE0MWU1MzBiMjFhMmRjZDQ2YTlkMzBkMjIwOSJ9fX0="
+            }
+          ]
+        },
+        "custom_model_data": {
+          "floats": [4860006]
+        }
+      }
+    },
+    "description": "Deliver Judgement to the Condemned",
+    "title": "JUDGEMENT",
+    "announce_to_chat": true,
+    "frame": "goal",
+    "hidden": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "kill_condemned": {
+      "trigger": "impossible"
+    }
+  },
+  "parent": "abgrund:find_temple"
+}

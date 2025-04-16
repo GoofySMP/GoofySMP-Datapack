@@ -1,0 +1,15 @@
+{
+  "name": "abgrund:temple/decoration",
+  "fallback": "empty",
+  "elements": [
+    {
+      "element": {
+        "element_type": "single_pool_element",
+        "projection": "rigid",
+        "location": "abgrund:temple/top_1",
+        "processors": "abgrund:cracked_blocks"
+      },
+      "weight": 1
+    }
+  ]
+}

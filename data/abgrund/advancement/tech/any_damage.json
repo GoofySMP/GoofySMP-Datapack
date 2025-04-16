@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "void_damage": {
+      "trigger": "entity_hurt_player"
+    }
+  },
+  "rewards": {
+    "function": "abgrund:mechanics/banish/check_death_banished"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "netherite_axe",
+      "components": {
+        "item_model": "goofy_smp:verbannung"
+      }
+    },
+    "description": "Banish something to Limbo",
+    "title": "Verbannung",
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": true,
+    "show_toast": true
+  },
+  "criteria": {
+    "banish": {
+      "trigger": "impossible"
+    }
+  },
+  "parent": "abgrund:judgement"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:shifted_noise",
+    "noise": "abgrund:continentalness",
+    "shift_x": "abgrund:shift_x",
+    "shift_y": 0.0,
+    "shift_z": "abgrund:shift_z",
+    "xz_scale": 0.25,
+    "y_scale": 0.0
+  }
+}

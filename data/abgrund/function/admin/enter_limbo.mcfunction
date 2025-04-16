@@ -1,0 +1,2 @@
+execute unless data storage abgrund:perma_storage limbo_spawn run function uthi:msg/error {msg: '"Failed to teleport to limbo: Unable to find limbo spawnpoint! Maybe it didn\'t generate?"'}
+execute if data storage abgrund:perma_storage limbo_spawn in abgrund:limbo run function abgrund:mechanics/enter_limbo with storage abgrund:perma_storage limbo_spawn

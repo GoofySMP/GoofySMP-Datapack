@@ -1,0 +1,166 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_pearl",
+      "components": {
+        "custom_model_data": {
+          "floats": [4860004]
+        }
+      }
+    },
+    "description": "Discover every biome in Limbo",
+    "title": "Equivocated",
+    "announce_to_chat": true,
+    "frame": "challenge",
+    "hidden": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "abyss_barrens": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:abyss_barrens"
+          }
+        }
+      }
+    },
+    "abyss_wastes": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:abyss_wastes"
+          }
+        }
+      }
+    },
+    "basalt_flats": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:basalt_flats"
+          }
+        }
+      }
+    },
+    "bluecap_forest": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:bluecap_forest"
+          }
+        }
+      }
+    },
+    "cursed_valley": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:cursed_valley"
+          }
+        }
+      }
+    },
+    "dead_forest": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:dead_forest"
+          }
+        }
+      }
+    },
+    "dead_valley": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:dead_valley"
+          }
+        }
+      }
+    },
+    "dripstone_desert": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:dripstone_desert"
+          }
+        }
+      }
+    },
+    "grenzen": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:grenzen"
+          }
+        }
+      }
+    },
+    "jardin": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:jardin"
+          }
+        }
+      }
+    },
+    "sable_garden": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:sable_garden"
+          }
+        }
+      }
+    },
+    "sable_plains": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:sable_plains"
+          }
+        }
+      }
+    },
+    "unfactored_barrens": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "abgrund:unfactored_barrens"
+          }
+        }
+      }
+    }
+  },
+  "parent": "abgrund:find_grenzen",
+  "requirements": [
+    ["abyss_barrens"],
+    ["abyss_wastes"],
+    ["basalt_flats"],
+    ["bluecap_forest"],
+    ["cursed_valley"],
+    ["dead_forest"],
+    ["dead_valley"],
+    ["dripstone_desert"],
+    ["grenzen"],
+    ["jardin"],
+    ["sable_garden"],
+    ["sable_plains"],
+    ["unfactored_barrens"]
+  ]
+}

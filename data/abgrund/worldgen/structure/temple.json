@@ -1,0 +1,16 @@
+{
+  "type": "jigsaw",
+  "biomes": "#abgrund:has_structure/temple",
+  "step": "surface_structures",
+  "terrain_adaptation": "bury",
+  "spawn_overrides": {},
+
+  "start_pool": "abgrund:temple",
+  "size": 2,
+  "max_distance_from_center": 20,
+  "start_height": {
+    "absolute": -12
+  },
+  "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+  "use_expansion_hack": false
+}

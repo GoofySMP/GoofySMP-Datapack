@@ -1,0 +1,111 @@
+{
+  "carvers": ["abgrund:senken_cave"],
+  "downfall": 0.3,
+  "temperature": 1,
+  "has_precipitation": false,
+  "effects": {
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0.0111
+    },
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2.0,
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
+      "tick_delay": 6000
+    },
+    "music": [
+      {
+        "data": {
+          "sound": {
+            "sound_id": "abgrund:music.limbo.dead_valley"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        },
+        "weight": 1
+      }
+    ],
+    "music_volume": 0.5,
+    "fog_color": 789259,
+    "sky_color": 1250067,
+    "water_color": 1912146,
+    "water_fog_color": 8750469,
+    "grass_color": 8816262,
+    "foliage_color": 6381921,
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.118093334
+    }
+  },
+  "features": [
+    [],
+    ["abgrund:senken/lava_lake_underground"],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_tuff",
+      "abgrund:ore_coal_lower",
+      "abgrund:ore_iron_small",
+      "abgrund:ore_gold_lower",
+      "abgrund:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "abgrund:senken/ore_copper",
+      "abgrund:ore_crying_obsidian"
+    ],
+    [],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_nether",
+      "minecraft:red_mushroom_nether",
+      "abgrund:senken/patch_dead_bush",
+      "abgrund:senken/patch_dead_coral",
+      "abgrund:senken/pale_bush",
+      "abgrund:senken/water_delta"
+    ]
+  ],
+  "spawn_costs": {
+    "enderman": {
+      "charge": 0.7,
+      "energy_budget": 0.15
+    },
+    "zombie": {
+      "charge": 2,
+      "energy_budget": 0.17
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [
+      {
+        "type": "zombie",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "misc": [],
+    "monster": [
+      {
+        "type": "enderman",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 10
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  }
+}
