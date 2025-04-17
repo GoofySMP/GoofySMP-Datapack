@@ -209,6 +209,14 @@ if entity @n[type=item,nbt={Item:{id:"minecraft:copper_ingot",count:1}},distance
 if entity @n[type=item,nbt={Item:{id:"minecraft:red_dye",count:1,}},distance=0...5] \
 run function goofy_items:item/textures/creepy_mask_saturated
 
+# Verbannung
+execute as @s[nbt= {Item: {id: "minecraft:netherite_axe",count:1}}] unless data entity @s Item.components."minecraft:custom_data" \
+if entity @n[type=item,nbt={Item:{id:"minecraft:obsidian",count:1,}},limit=1,sort=nearest,distance=0...6] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:white_dye",count:1}},limit=1,sort=nearest,distance=0...6] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:fire_charge",count:1}},limit=1,sort=nearest,distance=0...6] \
+if entity @n[type=item,nbt={Item:{id:"minecraft:music_disc_11",count:1}},limit=1,sort=nearest,distance=0...6,nbt={Item:{components:{"minecraft:custom_data":{"abgrund": {"item": "essence_of_abgrund"}}}}}] \
+run function goofy_items:item/textures/verbannung
+
 # Cycling Armour
 #execute as @s[nbt= {Item: {count:1}},predicate=goofy_items:misc/trimed_armor] unless data entity @s Item.components."minecraft:custom_data".goofy_smp.item_properties{does_trim_cycle:true} \
 #if entity @n[type=item,nbt={Item:{id:"minecraft:clock",count:1}},distance=0...5] \

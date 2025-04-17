@@ -1,0 +1,17 @@
+[
+  {
+    "function": "set_custom_data",
+    "tag": {
+      "goofy_smp": {
+        "texture": true,
+        "version": 1
+      }
+    }
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "item_model": "goofy_smp:verbannung"
+    }
+  }
+]
