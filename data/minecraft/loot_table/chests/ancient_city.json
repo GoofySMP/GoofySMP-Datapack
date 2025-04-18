@@ -28,6 +28,14 @@
             "value": "goofy_discs:discs/georgia_devil"
           },
           {
+            "type": "minecraft:loot_table",
+            "value": "goofy_discs:discs/machine_girl_downgr4de_remix"
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "goofy_discs:discs/fukouna_girl_kt_vocaloid"
+          },
+          {
             "type": "minecraft:item",
             "functions": [
               {

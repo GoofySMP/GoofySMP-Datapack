@@ -40,6 +40,11 @@
           "value": "goofy_discs:discs/bite_me"
         },
         {
+          "type": "minecraft:loot_table",
+          "weight": 15,
+          "value": "goofy_discs:discs/eternal_dream"
+        },
+        {
           "type": "minecraft:item",
           "name": "minecraft:name_tag",
           "weight": 20
