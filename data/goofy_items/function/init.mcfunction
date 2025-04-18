@@ -25,7 +25,4 @@ function goofy_items:clocks/10t
 function goofy_items:tick
 
 #> init message
-tellraw @a "- - - - - - - - - - - - -"
-tellraw @a [{"text":"Successfully loaded the ","color":"gray"},{"text":"Goofy SMP","color":"gold","bold": true},{"text":" datapack!","color":"gray"}]
-tellraw @a {"text":"Created by Uthimentius (you're welcome)","color":"red"}
-tellraw @a "- - - - - - - - - - - - -"
+tellraw @a [{"text":"Successfully loaded the ","color":"gray"},{"text":"Goofy SMP","color":"gold","bold": true},{"text":" datapack v1.5.2","color":"gray"}]
