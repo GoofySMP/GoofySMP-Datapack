@@ -177,6 +177,21 @@
           "type": "loot_table",
           "weight": 1,
           "value": "goofy_discs:discs/bosnia"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/eternal_dream"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/fukouna_girl_kt_vocaloid"
+        },
+        {
+          "type": "loot_table",
+          "weight": 1,
+          "value": "goofy_discs:discs/machine_girl_downgr4de_remix"
         }
       ],
       "rolls": 1
